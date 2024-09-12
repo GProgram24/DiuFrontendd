@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+    /* outline: 1px solid red; */
+ 
+}
+
+body{
+  overflow-x: hidden;
+}
+
+/* Custom styling for slick dots */
+.slick-dots {
+  bottom: -40px; /* Adjust the space between the slider and the dots */
+}
+
+.slick-dots li {
+  margin: 0 1px; /* Adjust the space between dots */
+}
+
+.slick-dots li button:before {
+  font-size: 9px; /* Adjust dot size */
+  color: #000; /* Customize dot color */
+}
+
+/* Optional: Change dot color when active */
+.slick-dots li.slick-active button:before {
+  color: #333; /* Active dot color */
+}
+
+
+.custom-select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url('data:image/svg+xml;base64,YOUR_BASE64_ENCODED_ARROW_IMAGE') no-repeat right 1rem center;
+  background-size: 1rem;
+  padding-right: 2.5rem;
+  position: relative;
+}
+
+.custom-select::after {
+  content: '\25BC'; /* Unicode character for the down arrow */
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  font-size: 0.8rem;
+}
+
+.testimonial-desc {
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Limits to 3 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-height: 4.5em; /* Adjust based on font size */
+  word-wrap: break-word;
+}
+
+
+/* Custom CSS for line-clamp */
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
