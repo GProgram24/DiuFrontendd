@@ -1,4 +1,6 @@
 import React from 'react'
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 import { FiArrowUpRight } from "react-icons/fi";
 import OurServices from '../sections/OurServices';
 import { featuredIn } from '../../utils/constants';

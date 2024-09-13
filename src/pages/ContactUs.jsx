@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { FaChevronDown } from 'react-icons/fa';
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 
 const ContactUs = () => {
     const [formData, setFormData] = useState({
@@ -121,7 +123,7 @@ const ContactUs = () => {
                     <div className='w-full lg:w-[264.08px] p-5 rounded-xl border border-black/40 flex flex-col gap-5 mb-10 lg:mb-0'>
                         <div className='text-base font-subHeading '>
                             <h1 className='font-medium'>CALL US</h1>
-                            <p className='font-light'>+91 - XXXXXXXXXX</p>
+                            <p className='font-light'>+91 836-9341912 </p>
                         </div>
 
                         <div className='text-base font-subHeading '>
@@ -131,12 +133,12 @@ const ContactUs = () => {
 
                         <div className='text-base font-subHeading'>
                             <h1 className='font-medium'>INSTAGRAM</h1>
-                            <p className='font-light'>Lorem ipsum</p>
+                            <p className='font-light'><a href='https://www.instagram.com/doitup.today?igsh=MWE1aXN5ZWNnZDdjOQ==' target='_blank'>@doitup.today</a></p>
                         </div>
 
                         <div className='text-base font-subHeading'>
                             <h1 className='font-medium'>EMAIL US</h1>
-                            <p className='font-light'>example@gmail.com</p>
+                            <p className='font-light'><a href="mailto:contact@doitup.today" target='_blank'>contact@doitup.today</a></p>
                         </div>
 
                     </div>

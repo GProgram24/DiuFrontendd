@@ -1,4 +1,6 @@
 import React from 'react'
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 import { collaboration } from '../../utils/constants'
 import Slider from 'react-slick';
 import { Link } from 'react-router-dom';

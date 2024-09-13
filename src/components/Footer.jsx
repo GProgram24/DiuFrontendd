@@ -12,7 +12,7 @@ const Footer = () => {
                         <NavLink to='/aboutus' className={({ isActive }) => isActive ? 'font-semibold' : 'font-medium'}>
                             <p className='px-3 md:px-0 hover:font-semibold'>ABOUT US</p>
                         </NavLink>
-                        <NavLink to='/works' className={({ isActive }) => isActive ? 'font-semibold' : 'font-medium'}>
+                        <NavLink to='' className={({ isActive }) => isActive ? 'font-semibold' : 'font-medium'}>
                             <p className='px-3 md:px-0 hover:font-semibold'>WORK</p>
                         </NavLink>
                         <NavLink to='/weddings' className={({ isActive }) => isActive ? 'font-semibold' : 'font-medium'}>
@@ -25,9 +25,10 @@ const Footer = () => {
                 </nav>
 
                 <div className="flex gap-3 text-lg  items-center h-full ">
-                    <FaWhatsapp />
-                    <IoLogoFacebook />
-                    <FaInstagram />
+                    <a href='https://web.whatsapp.com/send?phone=918369341912&text=' target='_blank'><FaWhatsapp /></a>
+                    <a href='https://www.facebook.com/doitup.today?mibextid=LQQJ4d' target='_blank'><IoLogoFacebook /></a>
+                    <a href='https://www.instagram.com/doitup.today?igsh=MWE1aXN5ZWNnZDdjOQ==' target='_blank'><FaInstagram /></a>
+                    
                 </div>
 
             </div>

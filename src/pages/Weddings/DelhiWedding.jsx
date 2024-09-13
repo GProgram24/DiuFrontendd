@@ -1,10 +1,11 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 import { mehendi } from '../../../utils/constants';
 import { sangeet } from '../../../utils/constants';
 import { wedding } from '../../../utils/constants';
 import Slider from 'react-slick';
-import MoodBoard from '../../sections/MoodBoard';
+
 
 const DelhiWedding = () => {
     const settings = {
@@ -142,18 +143,6 @@ const DelhiWedding = () => {
                         </p>
                     </div>
                 </div>
-
-
-
-
-
-
-
-
-
-                {/*--------------------------------- MOOD BOARD -------------------------------------------------------*/}
-
-                {/* <MoodBoard /> */}
 
             </div>
         </div>

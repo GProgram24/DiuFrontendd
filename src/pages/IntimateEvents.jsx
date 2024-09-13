@@ -1,5 +1,7 @@
 import React from 'react'
 import OurGallery from '../sections/OurGallery'
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 import { featuredIntimateEvents } from '../../utils/constants'
 import Slider from 'react-slick'
 import { Link } from 'react-router-dom'

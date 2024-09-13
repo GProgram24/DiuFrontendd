@@ -8,7 +8,7 @@ const Header = () => {
     const handleMouseEnter = () => setDropdownOpen(true);
     const handleMouseLeave = () => setDropdownOpen(false);
     return (
-        <header className="w-screen lg:w-full h-[70px]  md:h-[80px] px-5 lg:px-[100px]  xl:px-[150px] fixed z-40 backdrop-blur-sm bg-black/5">
+        <header className="w-full h-[70px]  md:h-[80px] px-5 lg:px-[100px]  xl:px-[150px] fixed z-40 backdrop-blur-sm bg-black/5">
             <div className=' w-full h-full flex items-center justify-between relative'>
                 <div className='text-base font-semibold text-white'>
                     <NavLink to='/'><img src='/Logo2.png' alt="Logo"></img></NavLink>

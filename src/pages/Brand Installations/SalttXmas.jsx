@@ -59,7 +59,119 @@ const SalttXmas = () => {
                 </div>
 
                 {/* Gallery */}
-                <OurGallery />
+                <div className='w-full min-h-[80vh] flex flex-col items-center pb-14'>
+                    <div className='w-full text-center pt-10 pb-8 flex flex-col items-center gap-2'>
+                        <h1 className='text-[22px] md:text-[32px] font-bold font-heading '>Our Gallery</h1>
+                        <p className='text-[14px] md:text-lg font-subHeading'>Turning your pinterest dream into reality</p>
+                    </div>
+
+                    <div className='w-full grid grid-cols-2 lg:grid-cols-3 gap-[6px] md:gap-5 place-items-center '>
+
+                        {/*--------------------------------  Col 1 ---------------------------------------- */}
+
+                        <div className='w-full flex flex-col gap-[6px] md:gap-5 '>
+                            <div className="w-full h-[128px] md:h-[220px] xl:h-[300px]   bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Brand Installations/Featured/Saltt Xmas/Copy of IMG_1792.jpg")`}}>
+                                <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-3 md:pl-6 pb-3 md:pb-5 transition-opacity duration-300 ease-in-out">
+                                    <h1 className="text-base leading-tight">Name of the Event</h1>
+                                    <p className="text-sm font-light">Location</p>
+                                </div>
+                            </div>
+
+                            <div className="w-full h-[188px] md:h-[400px] xl:h-[477px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Brand Installations/Featured/Saltt Xmas/Copy of IMG_1874.jpg")` }}>
+                                <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-3 md:pl-6 pb-3 md:pb-5 transition-opacity duration-300 ease-in-out">
+                                    <h1 className="text-base leading-tight">Name of the Event</h1>
+                                    <p className="text-sm font-light">Location</p>
+                                </div>
+                            </div>
+
+                            <div className="w-full h-[128px] md:h-[220px] xl:h-[300px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Brand Installations/Featured/Saltt Xmas/Copy of IMG_1782.jpg")` }}>
+                                <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-3 md:pl-6 pb-3 md:pb-5 transition-opacity duration-300 ease-in-out">
+                                    <h1 className="text-base leading-tight">Name of the Event</h1>
+                                    <p className="text-sm font-light">Location</p>
+                                </div>
+                            </div>
+
+                            <div className="w-full h-[188px] md:h-[400px] xl:h-[477px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Brand Installations/Featured/Saltt Xmas/Copy of IMG_1757.jpg")` }}>
+                                <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-3 md:pl-6 pb-3 md:pb-5 transition-opacity duration-300 ease-in-out">
+                                    <h1 className="text-base leading-tight">Name of the Event</h1>
+                                    <p className="text-sm font-light">Location</p>
+                                </div>
+                            </div>
+
+                            
+                        </div>
+
+
+
+                        {/*--------------------------------  Col 2  ---------------------------------------- */}
+
+                        <div className='w-full flex flex-col gap-[6px] md:gap-5 '>
+                            <div className="w-full h-[188px] md:h-[400px] xl:h-[477px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Brand Installations/Featured/Saltt Xmas/Copy of IMG_1905.jpg")` }}>
+                                <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-3 md:pl-6 pb-3 md:pb-5 transition-opacity duration-300 ease-in-out">
+                                    <h1 className="text-base leading-tight">Name of the Event</h1>
+                                    <p className="text-sm font-light">Location</p>
+                                </div>
+                            </div>
+
+                            <div className="w-full h-[128px] md:h-[220px] xl:h-[300px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Brand Installations/Featured/Saltt Xmas/Copy of IMG_1959.jpg")` }}>
+                                <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-3 md:pl-6 pb-3 md:pb-5 transition-opacity duration-300 ease-in-out">
+                                    <h1 className="text-base leading-tight">Name of the Event</h1>
+                                    <p className="text-sm font-light">Location</p>
+                                </div>
+                            </div>
+
+                            <div className="w-full h-[188px] md:h-[400px] xl:h-[477px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Brand Installations/Featured/Saltt Xmas/Copy of IMG_1829.jpg")` }}>
+                                <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-3 md:pl-6 pb-3 md:pb-5 transition-opacity duration-300 ease-in-out">
+                                    <h1 className="text-base leading-tight">Name of the Event</h1>
+                                    <p className="text-sm font-light">Location</p>
+                                </div>
+                            </div>
+
+                            <div className="w-full h-[128px] md:h-[220px] xl:h-[300px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Brand Installations/Featured/Saltt Xmas/Copy of IMG_1911.jpg")` }}>
+                                <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-3 md:pl-6 pb-3 md:pb-5 transition-opacity duration-300 ease-in-out">
+                                    <h1 className="text-base leading-tight">Name of the Event</h1>
+                                    <p className="text-sm font-light">Location</p>
+                                </div>
+                            </div>
+
+                            
+                        </div>
+
+
+
+                        {/*--------------------------------  Col 3  ---------------------------------------- */}
+
+                        <div className='w-full lg:flex flex-col gap-5 hidden '>
+                            <div className="w-full md:h-[220px] xl:h-[300px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Brand Installations/Featured/Saltt Xmas/Copy of IMG_1782.jpg")` }}>
+                                <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-6 pb-5 transition-opacity duration-300 ease-in-out">
+                                    <h1 className="text-base leading-tight">Name of the Event</h1>
+                                    <p className="text-sm font-light">Location</p>
+                                </div>
+                            </div>
+
+                            <div className="w-full md:h-[400px] xl:h-[477px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Brand Installations/Featured/Saltt Xmas/Copy of IMG_1804.jpg")` }}>
+                                <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-6 pb-5 transition-opacity duration-300 ease-in-out">
+                                    <h1 className="text-base leading-tight">Name of the Event</h1>
+                                    <p className="text-sm font-light">Location</p>
+                                </div>
+                            </div>
+
+                            <div className="w-full md:h-[220px] xl:h-[300px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Brand Installations/Featured/Saltt Xmas/Copy of IMG_1874.jpg")` }}>
+                                <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-6 pb-5 transition-opacity duration-300 ease-in-out">
+                                    <h1 className="text-base leading-tight">Name of the Event</h1>
+                                    <p className="text-sm font-light">Location</p>
+                                </div>
+                            </div>
+
+                            <div className="w-full md:h-[400px] xl:h-[477px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Brand Installations/Featured/Saltt Xmas/Copy of IMG_1958.jpg")` }}>
+                                <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-6 pb-5 transition-opacity duration-300 ease-in-out">
+                                    <h1 className="text-base leading-tight">Name of the Event</h1>
+                                    <p className="text-sm font-light">Location</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             {/* Contact us */}

@@ -36,6 +36,11 @@ body{
   color: #333; /* Active dot color */
 }
 
+.slick-prev, .slick-next {
+  display: none !important;
+}
+
+
 
 .custom-select {
   -webkit-appearance: none;

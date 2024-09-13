@@ -4,6 +4,8 @@ import { PrernaRohanWedding } from '../../../utils/constants';
 import { PrernaRohanMoodBoard } from '../../../utils/constants';
 import Slider from 'react-slick';
 import MoodBoard from '../../sections/MoodBoard';
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 
 const PrernaRohan = () => {
     const settings = {
