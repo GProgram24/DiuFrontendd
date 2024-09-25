@@ -5,39 +5,39 @@ export const servicesData = [
     {
         img:"/Services (Rename Later)/Intimate Celebrations/Featured/Alanna_s Bridal Shower/Copy of Copy of 3.png",
         title:"Immitate Events",
-        subtitle: "THE WIND WILL CARRY US",
+        subtitle: "ALANNA'S BRIDAL SOIREE",
         link:"/intimateEvents"
-    },
-    {
-        img:"/Weddings/Natasha wedding/IMG_6272.jpg",
-        title:"Weddings",
-        subtitle: "PORTRAIT OF A LADY ON FIRE",
-        link:"/weddings"
     },
     {
         img:"/Services (Rename Later)/Brand Installations/Featured/RAS luxury/Copy of IMG_1177.jpg",
         title:"BRAND & INSTALLATIONS",
-        subtitle: "LA CHIMERA",
+        subtitle: "WORLD OF RAS",
         link:"/brandInstallations"
-    }
+    },
+    {
+        img:"/Weddings/Delhi wedding/Wedding/A&A-1.jpg",
+        title:"Weddings",
+        subtitle: "APARNA & ANANYA",
+        link:"/weddings"
+    },
 ]
 
 //Home Page (OurCollaborationSection)
 export const collaboration = [
     {
         img:"/Collaborations/Tara Sutaria/Copy of TARA BIRTHDAY0015.jpg",
-        eventName: "Name of the Event",
-        location: "Location"
+        eventName: "Tara Sutaria's Birthday",
+        location: "Mumbai"
     },
     {
         img:"/Collaborations/Sakshi Sindhwani/Copy of DGP_0986.jpg",
-       eventName: "Name of the Event",
-       location: "Location"
+       eventName: "Sakshi Sindhwani's Christmas Bash",
+       location: "Delhi"
     },
     {
         img:"/Collaborations/Meghna Kaur/Copy of IMG_5293.jpg",
-        eventName: "Name of the Event",
-        location: "Location"
+        eventName: "Meghna Kaur's 1 Million Milestone",
+        location: "Mumbai"
     },
 ]
 
@@ -72,28 +72,28 @@ export const featuredIn = [
         img:'/About Us/featured/vogue.jpg',
         title: "Vogue weddings",
         desc: "Our very first Wedding at Oleander Farms Karjat, featured in Vogue weddings in November 2023",
-        url: "https://www.w3schools.com/"
+        url: "https://www.vogue.in/promotion/this-restaurant-in-mumbai-offers-a-bespoke-outdoor-dining-experience-like-no-other"
     },
     {
         id:2,
         img:'/About Us/featured/AD.jpg',
         title: "ARCHITECTURAL DIGEST",
         desc: "Our first Interior Design project featured in AD, face-lifted by restoring its dilapidated sections and converting it into a beautiful five-room stay in Matheran",
-        url: "https://chatgpt.com/"
+        url: "https://www.architecturaldigest.in/story/a-century-old-colonial-mansion-turned-into-a-boutique-stay-in-matheran/"
     },
     {
         id:3,
         img:'/About Us/featured/ET.jpg',
         title: "ECONOMIC TIMES INDUSTRY ",
         desc: "Do It Up received the award for the 'Preferred Special Occasions and Customised Home Decor Brand",
-         url: "https://www.w3schools.com/"
+         url: "https://photogallery.indiatimes.com/yearendershow/78387841.cms"
     },
     {
         id:4,
         img:'/About Us/featured/diu.jpg',
         title: "CONDÉ NAST TRAVELLER",
         desc: " Amidst a pandemic, we made it to the '10 Indian start-ups that will help you throw a killer house party.",
-         url: "https://www.w3schools.com/"
+         url: "https://www.cntraveller.in/story/indian-startups-mumbai-bengaluru-throw-a-killer-house-party/"
     },
 ]
 
@@ -147,10 +147,10 @@ export const PrernaRohanWedding = [
 
 export const PrernaRohanMoodBoard = [
     {
-        img:"/Weddings/P&R Wedding/Ethereal Images/RP_Mayra-3.jpg",
+        img:"/Weddings/P&R Wedding/Ethereal Images/RP_WeddingALL-1960.jpg",
     },
     {
-        img:"/Weddings/P&R Wedding/Ethereal Images/RP_Mayra-6.jpg", 
+        img:"/Weddings/P&R Wedding/Ethereal Images/RP_WeddingALL-2902.jpg", 
     },
     {
         img:"/Weddings/P&R Wedding/Ethereal Images/RP_WeddingALL-726.jpg",    

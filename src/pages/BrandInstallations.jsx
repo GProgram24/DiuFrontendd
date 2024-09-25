@@ -24,20 +24,20 @@ const BrandInstallations = () => {
     };
   return (
     <div className='w-full min-h-[80vh] pt-[70px] md:pt-[80px] flex flex-col'>
-            <div className='w-full aspect-video lg:h-[70vh] bg-center bg-cover' style={{ backgroundImage: `url("/Banners/Brand Installations1.jpg")` }}>
+            <div className='w-full aspect-video lg:h-[90vh] bg-bottom bg-cover' style={{ backgroundImage: `url("/Banners/Brand Installations1.jpg")` }}>
             </div>
 
             <div className='w-full px-5 lg:px-[100px] xl:px-[150px] flex flex-col items-center '>
                 <div className='w-full text-center pt-8 md:pt-10 pb-6 flex flex-col items-center gap-2 '>
                     <h1 className='text-[22px] md:text-[32px] font-bold font-heading '>Brand Events & Installations</h1>
-                    <p className='text-[14px] md:text-lg font-subHeading w-full lg:w-[859px]'> "From luxury brand launches to Instagram-worthy installations, Do It Up offers custom decor solutions for restaurants, skincare, and lifestyle brands in Mumbai."
+                    <p className='text-[14px] md:text-lg font-subHeading w-full lg:w-[859px]'> "From luxury brand launches to Instagram-worthy installations, Do It Up offers custom decor solutions for F&B, skincare, and lifestyle brands in Mumbai."
                     </p>
                 </div>
 
                 <div className='w-full  flex flex-col-reverse  items-center lg:flex-row justify-between gap-5 lg:gap-[40px] xl:gap-[71px]  md:py-8 '>
                     <div className='lg:w-[700px] lg:h-[300px] xl:w-[665px] flex flex-col items-start justify-center gap-3 '>
                         {/* <h1 className='text-[22px] xl:text-[32px] font-bold font-heading '>Lorem Ipsum</h1> */}
-                        <p className='text-[14px] xl:text-base font-subHeading leading-[22px] md:leading-[26px]'>As our expertise in intimate events flourished, we discovered an exciting new segment in the industry—brand events and installations. With an increasing number of brands approaching us as their go-to decor partner, we’ve expanded our services to cater to three main industries: Restaurants/Hospitality, Skincare/Beauty brands, and Lifestyle brands.</p>
+                        <p className='text-[14px] xl:text-base font-subHeading leading-[22px] md:leading-[26px]'>As our expertise in intimate events flourished, we discovered an exciting new segment in the industry—brand events and installations. With an increasing number of brands approaching us as their go-to decor partner, we’ve expanded our services to cater to three main industries: Hospitality, beauty and lifestyle brands.</p>
                         <p className='text-[14px] xl:text-base font-subHeading leading-[22px] md:leading-[26px]'>In today’s digital age, the demand for Instagram-worthy decor both online and offline has skyrocketed. Brands now recognize the value of creating visually stunning moments that capture attention and drive engagement. From Pinterest-inspired Christmas installations at the city’s most renowned restaurants to the launch of a new skincare brand, we’ve mastered the art of styling custom events that resonate with audiences.</p>
                         <p className='text-[14px] xl:text-base font-subHeading leading-[22px] md:leading-[26px]'>Whether it’s designing a breathtaking installation for a high-profile venue or curating the perfect backdrop for a brand launch, Do It Up has become synonymous with designing creative event concepts. Our work in this space has solidified our reputation as a leader in decor services for brand events in Mumbai.</p>
                         
@@ -78,7 +78,7 @@ const BrandInstallations = () => {
                 <div className='w-full min-h-[80vh] flex flex-col items-center pb-14'>
                     <div className='w-full text-center pt-10 pb-8 flex flex-col items-center gap-2'>
                         <h1 className='text-[22px] md:text-[32px] font-bold font-heading '>Our Gallery</h1>
-                        <p className='text-[14px] md:text-lg font-subHeading'>Turning your pinterest dream into reality</p>
+                        {/* <p className='text-[14px] md:text-lg font-subHeading'>Turning your pinterest dream into reality</p> */}
                     </div>
 
                     <div className='w-full grid grid-cols-2 lg:grid-cols-3 gap-[6px] md:gap-5 place-items-center '>

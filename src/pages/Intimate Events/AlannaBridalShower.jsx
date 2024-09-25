@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const AlannaBridalShower = () => {
     return (
         <div className='w-full min-h-[80vh] pt-[70px] md:pt-[80px] flex flex-col'>
-            <div className='w-full aspect-video lg:h-[70vh] bg-center bg-cover' style={{ backgroundImage: `url("/AboutUs/banner1.jpg")` }}>
+            <div className='w-full aspect-video lg:h-[70vh] xl:h-[80vh] bg-center bg-cover' style={{ backgroundImage: `url("/Banners/Alanna'sBridalShower1.png")` }}>
             </div>
 
             <div className='w-full px-5 lg:px-[100px] xl:px-[150px] flex flex-col items-center'>
@@ -28,14 +28,6 @@ const AlannaBridalShower = () => {
 
                     <div className='w-full xl:w-[35%]'>
                         {/* <img src='/wedding.jpg' className='w-[100%] h-[635px]'></img> */}
-                        <div className='w-full h-[635px] bg-center bg-cover' style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Featured/Alanna_s Bridal Shower/Copy of Copy of 4.png")` }}></div>
-                    </div>
-                </div>
-
-
-                <div className='w-full flex flex-col xl:flex-row justify-between py-5 gap-10 items-center'>
-                    <div className='w-full xl:w-[35%]'>
-                        {/* <img src='/Homepage/banner1.jpg' className='w-[100%] h-[635px]'></img> */}
                         <div className='w-full h-[635px] bg-center bg-cover'>
                             <video
                                 className='w-full h-full object-cover'
@@ -47,6 +39,14 @@ const AlannaBridalShower = () => {
                                 Your browser does not support the video tag.
                             </video>
                         </div>
+                    </div>
+                </div>
+
+
+                <div className='w-full flex flex-col xl:flex-row justify-between py-5 gap-10 items-center'>
+                    <div className='w-full xl:w-[35%]'>
+                        <div className='w-full h-[635px] bg-center bg-cover' style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Featured/Alanna_s Bridal Shower/Copy of Copy of 5.png")` }}></div>
+
                     </div>
 
                     <div className='w-full xl:w-[70%] flex flex-col gap-6'>
@@ -72,34 +72,16 @@ const AlannaBridalShower = () => {
 
                         <div className='w-full flex flex-col gap-[6px] md:gap-5 '>
                             <div className="w-full h-[128px] md:h-[220px] xl:h-[300px]   bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Featured/Alanna_s Bridal Shower/Copy of Copy of 15.png")` }}>
-                                <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-3 md:pl-6 pb-3 md:pb-5 transition-opacity duration-300 ease-in-out">
-                                    <h1 className="text-base leading-tight">Name of the Event</h1>
-                                    <p className="text-sm font-light">Location</p>
-                                </div>
                             </div>
 
-                            <div className="w-full h-[188px] md:h-[400px] xl:h-[477px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Featured/Alanna_s Bridal Shower/Copy of Copy of 4.png")` }}>
-                                <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-3 md:pl-6 pb-3 md:pb-5 transition-opacity duration-300 ease-in-out">
-                                    <h1 className="text-base leading-tight">Name of the Event</h1>
-                                    <p className="text-sm font-light">Location</p>
-                                </div>
+                            <div className="w-full h-[188px] md:h-[400px] xl:h-[477px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Featured/Alanna_s Bridal Shower/Copy of Copy of 4.png")` }}>  
                             </div>
 
-                            <div className="w-full h-[128px] md:h-[220px] xl:h-[300px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Featured/Alanna_s Bridal Shower/Copy of Copy of 7.png")` }}>
-                                <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-3 md:pl-6 pb-3 md:pb-5 transition-opacity duration-300 ease-in-out">
-                                    <h1 className="text-base leading-tight">Name of the Event</h1>
-                                    <p className="text-sm font-light">Location</p>
-                                </div>
+                            <div className="w-full h-[128px] md:h-[220px] xl:h-[300px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Featured/Alanna_s Bridal Shower/Copy of Copy of 7.png")` }}>                               
                             </div>
 
-                            <div className="w-full h-[188px] md:h-[400px] xl:h-[477px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Featured/Alanna_s Bridal Shower/Copy of Copy of 9.png")` }}>
-                                <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-3 md:pl-6 pb-3 md:pb-5 transition-opacity duration-300 ease-in-out">
-                                    <h1 className="text-base leading-tight">Name of the Event</h1>
-                                    <p className="text-sm font-light">Location</p>
-                                </div>
+                            <div className="w-full h-[188px] md:h-[400px] xl:h-[477px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Featured/Alanna_s Bridal Shower/Copy of Copy of 9.png")` }}>     
                             </div>
-
-                            
                         </div>
 
 
@@ -107,35 +89,17 @@ const AlannaBridalShower = () => {
                         {/*--------------------------------  Col 2  ---------------------------------------- */}
 
                         <div className='w-full flex flex-col gap-[6px] md:gap-5 '>
-                            <div className="w-full h-[188px] md:h-[400px] xl:h-[477px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Featured/Alanna_s Bridal Shower/Copy of Copy of 3.png")` }}>
-                                <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-3 md:pl-6 pb-3 md:pb-5 transition-opacity duration-300 ease-in-out">
-                                    <h1 className="text-base leading-tight">Name of the Event</h1>
-                                    <p className="text-sm font-light">Location</p>
-                                </div>
+                            <div className="w-full h-[188px] md:h-[400px] xl:h-[477px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Featured/Alanna_s Bridal Shower/Copy of Copy of 3.png")` }}>                  
                             </div>
 
-                            <div className="w-full h-[128px] md:h-[220px] xl:h-[300px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Featured/Alanna_s Bridal Shower/Copy of Copy of 14.png")` }}>
-                                <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-3 md:pl-6 pb-3 md:pb-5 transition-opacity duration-300 ease-in-out">
-                                    <h1 className="text-base leading-tight">Name of the Event</h1>
-                                    <p className="text-sm font-light">Location</p>
-                                </div>
+                            <div className="w-full h-[128px] md:h-[220px] xl:h-[300px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Featured/Alanna_s Bridal Shower/Copy of Copy of 14.png")` }}>   
                             </div>
 
                             <div className="w-full h-[188px] md:h-[400px] xl:h-[477px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Featured/Alanna_s Bridal Shower/Copy of Copy of 8.png")` }}>
-                                <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-3 md:pl-6 pb-3 md:pb-5 transition-opacity duration-300 ease-in-out">
-                                    <h1 className="text-base leading-tight">Name of the Event</h1>
-                                    <p className="text-sm font-light">Location</p>
-                                </div>
                             </div>
 
-                            <div className="w-full h-[128px] md:h-[220px] xl:h-[300px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Featured/Alanna_s Bridal Shower/Copy of Copy of 13.png")` }}>
-                                <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-3 md:pl-6 pb-3 md:pb-5 transition-opacity duration-300 ease-in-out">
-                                    <h1 className="text-base leading-tight">Name of the Event</h1>
-                                    <p className="text-sm font-light">Location</p>
-                                </div>
+                            <div className="w-full h-[128px] md:h-[220px] xl:h-[300px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Featured/Alanna_s Bridal Shower/Copy of Copy of 13.png")` }}>                                
                             </div>
-
-                            
                         </div>
 
 
@@ -143,32 +107,16 @@ const AlannaBridalShower = () => {
                         {/*--------------------------------  Col 3  ---------------------------------------- */}
 
                         <div className='w-full lg:flex flex-col gap-5 hidden '>
-                            <div className="w-full md:h-[220px] xl:h-[300px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Featured/Alanna_s Bridal Shower/Copy of Copy of 11.png")` }}>
-                                <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-6 pb-5 transition-opacity duration-300 ease-in-out">
-                                    <h1 className="text-base leading-tight">Name of the Event</h1>
-                                    <p className="text-sm font-light">Location</p>
-                                </div>
+                            <div className="w-full md:h-[220px] xl:h-[300px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Featured/Alanna_s Bridal Shower/Copy of Copy of 11.png")` }}>            
                             </div>
 
-                            <div className="w-full md:h-[400px] xl:h-[477px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Featured/Alanna_s Bridal Shower/Copy of Copy of 5.png")` }}>
-                                <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-6 pb-5 transition-opacity duration-300 ease-in-out">
-                                    <h1 className="text-base leading-tight">Name of the Event</h1>
-                                    <p className="text-sm font-light">Location</p>
-                                </div>
+                            <div className="w-full md:h-[400px] xl:h-[477px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Featured/Alanna_s Bridal Shower/Copy of Copy of 5.png")` }}>                               
                             </div>
 
-                            <div className="w-full md:h-[220px] xl:h-[300px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Featured/Alanna_s Bridal Shower/Copy of Copy of 6.png")` }}>
-                                <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-6 pb-5 transition-opacity duration-300 ease-in-out">
-                                    <h1 className="text-base leading-tight">Name of the Event</h1>
-                                    <p className="text-sm font-light">Location</p>
-                                </div>
+                            <div className="w-full md:h-[220px] xl:h-[300px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Featured/Alanna_s Bridal Shower/Copy of Copy of 6.png")` }}>   
                             </div>
 
-                            <div className="w-full md:h-[400px] xl:h-[477px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Featured/Alanna_s Bridal Shower/Copy of Copy of 12.png")` }}>
-                                <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-6 pb-5 transition-opacity duration-300 ease-in-out">
-                                    <h1 className="text-base leading-tight">Name of the Event</h1>
-                                    <p className="text-sm font-light">Location</p>
-                                </div>
+                            <div className="w-full md:h-[400px] xl:h-[477px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Featured/Alanna_s Bridal Shower/Copy of Copy of 12.png")` }}>            
                             </div>
                         </div>
                     </div>

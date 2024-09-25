@@ -12,22 +12,22 @@ const Collaborations = () => {
             <div className='w-full px-5 lg:px-[100px] xl:px-[150px] flex flex-col items-center'>
                 <div className='w-full text-center pt-10 pb-8 flex flex-col items-center gap-2'>
                     <h1 className='text-[22px] md:text-[32px] font-bold font-heading '>Our Collaborations</h1>
-                    <p className='text-[14px] md:text-lg font-subHeading'>Turning your pinterest dream into reality</p>
+                    <p className='text-[14px] md:text-lg font-subHeading'>Trusted by the city’s most influential individuals</p>
                 </div>
 
                 <div className='w-full  flex flex-col-reverse lg:flex-row justify-between gap-5 lg:gap-0 lg:py-10 items-center'>
                     <div className='w-full lg:w-[40%] flex flex-col gap-5'>
                         {/* <h3 className='text-base font-subHeading font-medium'>OUR TEAM</h3>
                         <h1 className='text-[24px] font-heading leading-8'>I love how they set everything up within hours, and the team was extremely courteous. My sister loved the cute little surprise, and that’s what truly mattered the most.</h1> */}
-                        <div className='text-[14px] font-subHeading font-light leading-[22px] flex flex-col gap-6'>
+                        <div className='text-[14px] xl:text-base font-subHeading font-light leading-[22px] flex flex-col gap-6'>
                             <p>At Do It Up, we've had the privilege of collaborating with some of the most influential and credible names in the industry. From Bollywood celebrities to top influencers, we've had the honor of creating stunning decor for all. It's the trust and faith that our clients place in us that fuels our passion every single day. </p>
-                            <p>From our first celebrity collaboration with Malaika Arora Khan to our latest project with Tara Sutaria, each collaboration brings an overwhelming sense of excitement and gratitude. These partnerships have solidified our reputation as one of the leading Mumbai-based event planners, particularly in the realm of luxury and intimate event decor.</p>
+                            <p>From our first celebrity collaboration with Malaika Arora Khan to our latest project with Tara Sutaria, each collaboration brings an overwhelming sense of excitement and gratitude. These partnerships have solidified our reputation as one of the leading Mumbai-based event decor brand, particularly in the realm of luxury and intimate event decor.</p>
                         </div>
                     </div>
 
                     {/* <div className='w-full h-[526px] bg-center bg-cover' style={{ backgroundImage: `url("/AboutUs/banner1.jpg")` }}></div> */}
                     <div className='w-full lg:w-[55%]'>
-                        <img src='/Collaborations/Akshay Kumar/Copy of IMG_6582.jpg' className='w-[100%] h-[451px] lg:h-[526px] '></img>
+                        <img src='/Collaborations/Mrunu + Anirudhh/Copy of IMG_7731.JPG' className='w-[100%] h-[451px] md:h-[526px] '></img>
                     </div>
                 </div>
 

@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom'
 const RasLuxury = () => {
     return (
         <div className='w-full min-h-[80vh] pt-[70px] md:pt-[80px] flex flex-col'>
-             <div className='w-full aspect-video lg:h-[70vh] bg-center bg-cover' style={{ backgroundImage: `url("/AboutUs/banner1.jpg")` }}>
-             </div>
+            <div className='w-full aspect-video lg:h-[70vh] xl:h-[80vh] bg-center bg-cover' style={{ backgroundImage: `url("/Services (Rename Later)/Brand Installations/Featured/RAS luxury/Copy of IMG_1295.jpg")` }}>
+            </div>
 
             <div className='w-full px-5 lg:px-[100px] xl:px-[150px] flex flex-col items-center'>
                 <div className='w-full text-center pt-10 pb-6 flex flex-col items-center gap-2'>
@@ -26,15 +26,6 @@ const RasLuxury = () => {
                     </div>
 
                     <div className='w-full xl:w-[35%]'>
-                        {/* <img src='/wedding.jpg' className='w-[100%] h-[635px]'></img> */}
-                        <div className='w-full h-[635px] bg-center bg-cover' style={{ backgroundImage: `url("/Services (Rename Later)/Brand Installations/Featured/RAS luxury/Copy of IMG_1169.jpg")` }}></div>
-                    </div>
-                </div>
-
-
-                <div className='w-full flex flex-col xl:flex-row justify-between py-5 gap-10 items-center'>
-                    <div className='w-full xl:w-[35%]'>
-                        {/* <img src='/Homepage/banner1.jpg' className='w-[100%] h-[635px]'></img> */}
                         <div className='w-full h-[635px] bg-center bg-cover'>
                             <video
                                 className='w-full h-full object-cover'
@@ -46,6 +37,13 @@ const RasLuxury = () => {
                                 Your browser does not support the video tag.
                             </video>
                         </div>
+                    </div>
+                </div>
+
+
+                <div className='w-full flex flex-col xl:flex-row justify-between py-5 gap-10 items-center'>
+                    <div className='w-full xl:w-[35%]'>
+                        <div className='w-full h-[635px] bg-center bg-cover' style={{ backgroundImage: `url("/Services (Rename Later)/Brand Installations/Featured/RAS luxury/Copy of IMG_1169.jpg")` }}></div>
                     </div>
 
                     <div className='w-full xl:w-[70%] flex flex-col gap-6'>
@@ -62,7 +60,7 @@ const RasLuxury = () => {
                 <div className='w-full min-h-[80vh] flex flex-col items-center pb-14'>
                     <div className='w-full text-center pt-10 pb-8 flex flex-col items-center gap-2'>
                         <h1 className='text-[22px] md:text-[32px] font-bold font-heading '>Our Gallery</h1>
-                        <p className='text-[14px] md:text-lg font-subHeading'>Turning your pinterest dream into reality</p>
+                        {/* <p className='text-[14px] md:text-lg font-subHeading'>Turning your pinterest dream into reality</p> */}
                     </div>
 
                     <div className='w-full grid grid-cols-2 lg:grid-cols-3 gap-[6px] md:gap-5 place-items-center '>
@@ -71,34 +69,16 @@ const RasLuxury = () => {
 
                         <div className='w-full flex flex-col gap-[6px] md:gap-5 '>
                             <div className="w-full h-[128px] md:h-[220px] xl:h-[300px]   bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Brand Installations/Featured/RAS luxury/Copy of IMG_1184_jpg.jpg")` }}>
-                                <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-3 md:pl-6 pb-3 md:pb-5 transition-opacity duration-300 ease-in-out">
-                                    <h1 className="text-base leading-tight">Name of the Event</h1>
-                                    <p className="text-sm font-light">Location</p>
-                                </div>
                             </div>
 
                             <div className="w-full h-[188px] md:h-[400px] xl:h-[477px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Brand Installations/Featured/RAS luxury/Copy of IMG_1148_jpg.jpg")` }}>
-                                <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-3 md:pl-6 pb-3 md:pb-5 transition-opacity duration-300 ease-in-out">
-                                    <h1 className="text-base leading-tight">Name of the Event</h1>
-                                    <p className="text-sm font-light">Location</p>
-                                </div>
                             </div>
 
                             <div className="w-full h-[128px] md:h-[220px] xl:h-[300px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Brand Installations/Featured/RAS luxury/Copy of IMG_1217_jpg.jpg")` }}>
-                                <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-3 md:pl-6 pb-3 md:pb-5 transition-opacity duration-300 ease-in-out">
-                                    <h1 className="text-base leading-tight">Name of the Event</h1>
-                                    <p className="text-sm font-light">Location</p>
-                                </div>
                             </div>
 
                             <div className="w-full h-[188px] md:h-[400px] xl:h-[477px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Brand Installations/Featured/RAS luxury/Copy of IMG_1261.jpg")` }}>
-                                <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-3 md:pl-6 pb-3 md:pb-5 transition-opacity duration-300 ease-in-out">
-                                    <h1 className="text-base leading-tight">Name of the Event</h1>
-                                    <p className="text-sm font-light">Location</p>
-                                </div>
                             </div>
-
-                            
                         </div>
 
 
@@ -107,34 +87,16 @@ const RasLuxury = () => {
 
                         <div className='w-full flex flex-col gap-[6px] md:gap-5 '>
                             <div className="w-full h-[188px] md:h-[400px] xl:h-[477px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Brand Installations/Featured/RAS luxury/Copy of IMG_1177.jpg")` }}>
-                                <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-3 md:pl-6 pb-3 md:pb-5 transition-opacity duration-300 ease-in-out">
-                                    <h1 className="text-base leading-tight">Name of the Event</h1>
-                                    <p className="text-sm font-light">Location</p>
-                                </div>
                             </div>
 
                             <div className="w-full h-[128px] md:h-[220px] xl:h-[300px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Brand Installations/Featured/RAS luxury/Copy of IMG_1301.jpg")` }}>
-                                <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-3 md:pl-6 pb-3 md:pb-5 transition-opacity duration-300 ease-in-out">
-                                    <h1 className="text-base leading-tight">Name of the Event</h1>
-                                    <p className="text-sm font-light">Location</p>
-                                </div>
                             </div>
 
                             <div className="w-full h-[188px] md:h-[400px] xl:h-[477px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Brand Installations/Featured/RAS luxury/Copy of IMG_1295.jpg")` }}>
-                                <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-3 md:pl-6 pb-3 md:pb-5 transition-opacity duration-300 ease-in-out">
-                                    <h1 className="text-base leading-tight">Name of the Event</h1>
-                                    <p className="text-sm font-light">Location</p>
-                                </div>
                             </div>
 
                             <div className="w-full h-[128px] md:h-[220px] xl:h-[300px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Brand Installations/Featured/RAS luxury/Copy of IMG_1194.jpg")` }}>
-                                <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-3 md:pl-6 pb-3 md:pb-5 transition-opacity duration-300 ease-in-out">
-                                    <h1 className="text-base leading-tight">Name of the Event</h1>
-                                    <p className="text-sm font-light">Location</p>
-                                </div>
                             </div>
-
-                            
                         </div>
 
 
@@ -143,31 +105,15 @@ const RasLuxury = () => {
 
                         <div className='w-full lg:flex flex-col gap-5 hidden '>
                             <div className="w-full md:h-[220px] xl:h-[300px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Brand Installations/Featured/RAS luxury/Copy of IMG_1184_jpg.jpg")` }}>
-                                <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-6 pb-5 transition-opacity duration-300 ease-in-out">
-                                    <h1 className="text-base leading-tight">Name of the Event</h1>
-                                    <p className="text-sm font-light">Location</p>
-                                </div>
                             </div>
 
                             <div className="w-full md:h-[400px] xl:h-[477px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Brand Installations/Featured/RAS luxury/Copy of IMG_1186.jpg")` }}>
-                                <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-6 pb-5 transition-opacity duration-300 ease-in-out">
-                                    <h1 className="text-base leading-tight">Name of the Event</h1>
-                                    <p className="text-sm font-light">Location</p>
-                                </div>
                             </div>
 
                             <div className="w-full md:h-[220px] xl:h-[300px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Brand Installations/Featured/RAS luxury/Copy of IMG_1148_jpg.jpg")` }}>
-                                <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-6 pb-5 transition-opacity duration-300 ease-in-out">
-                                    <h1 className="text-base leading-tight">Name of the Event</h1>
-                                    <p className="text-sm font-light">Location</p>
-                                </div>
                             </div>
 
                             <div className="w-full md:h-[400px] xl:h-[477px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Brand Installations/Featured/RAS luxury/Copy of IMG_1217_jpg.jpg")` }}>
-                                <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-6 pb-5 transition-opacity duration-300 ease-in-out">
-                                    <h1 className="text-base leading-tight">Name of the Event</h1>
-                                    <p className="text-sm font-light">Location</p>
-                                </div>
                             </div>
                         </div>
                     </div>

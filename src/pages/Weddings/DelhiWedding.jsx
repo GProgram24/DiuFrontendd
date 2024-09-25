@@ -40,7 +40,7 @@ const DelhiWedding = () => {
                 <h1 className=" text-white font-heading text-[32px] lg:text-7xl font-light w-full">
                     Aparna & Ananya
                 </h1>
-                <p className='text-white font-subHeading text-[14px] lg:text-2xl font-light cursor-pointer'>Good times all around</p>
+                <p className='text-white font-subHeading text-[14px] lg:text-2xl font-light cursor-pointer'>The big fat intimate wedding</p>
             </div>
 
             <div className='w-full px-5 lg:px-[100px] xl:px-[150px] flex flex-col items-center '>
@@ -135,15 +135,11 @@ const DelhiWedding = () => {
 
                 {/* Couples Review */}
                 <div className='w-full'>
-                    <div className='w-full text-center pt-8 md:pt-10 pb-8 flex flex-col items-center gap-2'>
+                    <div className='w-full text-center  pb-8 flex flex-col items-center gap-2'>
                         <h1 className='text-[22px] md:text-[32px] font-bold font-heading '>Couple’s Review</h1>
                         <p className='text-[14px] md:text-lg font-subHeading leading-[22px] md:leading-[26px] text-center w-full xl:w-[900px]'>"Working with Taral and her team was the best decision we made for our wedding! Taral's attention to detail was exceptional, as she guided us through every aspect to ensure everything felt personal and special. She also found ways to repurpose our decor items, making sure we were mindful throughout. We had a truly unforgettable experience thanks to their expertise and dedication and would highly recommend Do It Up!" - Aparna (Bride)</p>
-
-                        <p className='text-[14px] md:text-lg font-subHeading leading-[22px] md:leading-[26px] text-center w-full xl:w-[900px]'>Each of these weddings showcases our commitment to creating intimate wedding decor that is not only visually stunning but also deeply personal and reflective of each couple's unique story. Whether it's a lavish celebration or an intimate gathering, we bring our passion for styling custom events to every occasion, ensuring that each wedding is as memorable as it is beautiful.
-                        </p>
                     </div>
                 </div>
-
             </div>
         </div>
     )

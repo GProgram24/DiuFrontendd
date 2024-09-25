@@ -4,7 +4,7 @@ import { PrernaRohanWedding } from '../../../utils/constants';
 import { PrernaRohanMoodBoard } from '../../../utils/constants';
 import Slider from 'react-slick';
 import MoodBoard from '../../sections/MoodBoard';
-import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const PrernaRohan = () => {
@@ -40,7 +40,7 @@ const PrernaRohan = () => {
                 <h1 className=" text-white font-heading text-[32px] lg:text-7xl font-light w-full">
                     Prerna & Rohan
                 </h1>
-                <p className='text-white font-subHeading text-[14px] lg:text-2xl font-light cursor-pointer'>Good times all around</p>
+                <p className='text-white font-subHeading text-[14px] lg:text-2xl font-light cursor-pointer'>Reimagined traditions for their intimate wedding..</p>
             </div>
 
 
@@ -67,14 +67,15 @@ const PrernaRohan = () => {
 
                 <div className='w-full flex flex-col lg:flex-row justify-between py-5 gap-10 items-center'>
                     <div className='w-full lg:w-[55%] flex flex-col gap-4 xl:gap-6'>
-                        <h2 className='text-base font-subHeading font-medium'>Ceremony Setting</h2>
+                        <h2 className='text-base xl:text-lg font-subHeading font-medium'>Ceremony Setting</h2>
                         {/* <h1 className='text-[18px] lg:text-2xl font-heading leading-7 lg:leading-[30px] xl:leading-8'>“I love how they set everything up within hours, and the team was extremely courteous. My sister loved the cute little surprise, and that’s what truly mattered the most. I love how they set everything up within hours, and the team was extremely courteous.”</h1> */}
-                        <div className='flex flex-col gap-2 xl:gap-3 text-[14px] font-subHeading leading-[22px] '>
-                            <p>The focal point of their wedding decor was a reimagined mandap, designed with a fresh take on traditional aesthetics. Instead of the classic four-pillar structure, we opted for an open setup adorned with Sevanti and Rajnigandha flower hangings. These fragrant blooms were artfully arranged to create a canopy, framing the ceremony space beautifully. This design not only showcased the natural beauty of the flowers but also offered an unobstructed view of the sunset, making for a stunning backdrop during their pheras. This blend of wedding stage decoration and modern design principles truly set their celebration apart.
+                        <div className='flex flex-col gap-2 xl:gap-3 text-[14px] xl:text-base font-subHeading leading-[22px] '>
+                            <p>The focal point of their wedding decor was a reimagined mandap, designed with a fresh take on traditional aesthetics. Instead of the classic four-pillar structure, we opted for an open setup adorned with Sevanti and Rajnigandha flower hangings. These fragrant blooms were artfully arranged to create a canopy, framing the ceremony space beautifully. This design not only showcased the natural beauty of the flowers but also offered an unobstructed view of the sunset, making for a stunning backdrop during their pheras. This blend of traditional wedding flowers and modern design principles truly set their celebration apart.
+
                             </p>
                         </div>
-                        <h2 className='text-base font-subHeading font-medium'>Aisle and Entrance</h2>
-                        <div className='flex flex-col gap-2 xl:gap-3 text-[14px] font-subHeading leading-[22px] '>
+                        <h2 className='text-base xl:text-lg font-subHeading font-medium'>Aisle and Entrance</h2>
+                        <div className='flex flex-col gap-2 xl:gap-3 text-[14px] xl:text-base font-subHeading leading-[22px] '>
                             <p>The couple's grand entrance was a sight to behold, as they walked down an aisle lined with a delicate tapestry of pastel florals, including roses, peonies, and orchids. These floral arrangements, which enhanced the wedding decor, added a romantic and serene touch to the pathway. Friends and family showered the couple with petals as they made their way to the mandap, creating a magical and intimate atmosphere that perfectly aligned with their vision.
                             </p>
                         </div>
@@ -82,13 +83,6 @@ const PrernaRohan = () => {
                     </div>
 
                     <div className='w-full lg:w-[40%]'>
-                        <div className='w-full  h-[500px] xl:h-[635px] bg-center bg-cover' style={{ backgroundImage: `url("/Weddings/P&R Wedding/Ethereal Images/PreviewRP-106-_O5A6785.jpg")` }}></div>
-                    </div>
-                </div>
-
-
-                <div className='w-full flex justify-between py-5 gap-10 items-center'>
-                    <div className='w-[40%] hidden lg:block'>
                         <div className='w-full lg:h-[500px] xl:h-[635px] bg-center bg-cover'>
                             <video
                                 className='w-full h-full object-cover'
@@ -101,13 +95,20 @@ const PrernaRohan = () => {
                             </video>
                         </div>
                     </div>
+                </div>
+
+
+                <div className='w-full flex justify-between py-5 gap-10 items-center'>
+                    <div className='w-[40%] hidden lg:block'>
+                        <div className='w-full  h-[500px] xl:h-[635px] bg-center bg-cover' style={{ backgroundImage: `url("/Weddings/P&R Wedding/Ethereal Images/PreviewRP-106-_O5A6785.jpg")` }}></div>
+                    </div>
 
                     <div className='w-full lg:w-[55%] flex flex-col gap-4 xl:gap-6'>
-                        <h2 className='text-base font-subHeading font-medium'>Overall Ambiance</h2>
+                        <h2 className='text-base xl:text-lg font-subHeading font-medium'>Overall Ambiance</h2>
                         {/* <h1 className='text-[18px] lg:text-2xl font-heading leading-7 lg:leading-[30px] xl:leading-8'>“I love how they set everything up within hours, and the team was extremely courteous. My sister loved the cute little surprise, and that’s what truly mattered the most. I love how they set everything up within hours, and the team was extremely courteous.”</h1> */}
-                        <div className='flex flex-col gap-2 xl:gap-3 text-[14px] font-subHeading leading-[22px] '>
+                        <div className='flex flex-col gap-2 xl:gap-3 text-[14px] xl:text-base font-subHeading leading-[22px] '>
                             <p>To maintain a cohesive and enchanting atmosphere, we adorned the venue with subtle bulb lighting and strings of fairy lights. These lights gently highlighted the natural surroundings, casting a warm, inviting glow over the entire space. The strategic placement of lights in the trees and throughout the venue added a touch of twinkling magic to the evening, enhancing the romantic ambiance.</p>
-                            <p> The seamless integration of traditional elements with modern aesthetics, using soft pastels, created a serene and elegant setting that perfectly reflected Prerna and Rohan's values. Their wedding was a beautiful celebration of love, commitment, and sustainability, leaving a lasting impression on all who attended.</p>
+                            <p className='text-[14px] xl:text-base'> The seamless integration of traditional elements with modern aesthetics, using soft pastels, created a serene and elegant setting that perfectly reflected Prerna and Rohan's values. Their wedding was a beautiful celebration of love, commitment, and sustainability, leaving a lasting impression on all who attended.</p>
                         </div>
                     </div>
                 </div>
@@ -115,7 +116,7 @@ const PrernaRohan = () => {
 
                 {/*--------------------------------- MOOD BOARD -------------------------------------------------------*/}
 
-                <MoodBoard cards={PrernaRohanMoodBoard}/>
+                <MoodBoard cards={PrernaRohanMoodBoard} />
 
             </div>
 

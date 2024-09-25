@@ -26,25 +26,25 @@ const AboutUs = () => {
     };
     return (
         <div className='w-full min-h-[80vh] pt-[70px] md:pt-[80px] flex flex-col'>
-            <div className='w-full aspect-video lg:h-[70vh] bg-center bg-cover' style={{ backgroundImage: `url("/Banners/About us.jpg")` }}>
+            <div className='w-full aspect-video lg:h-[90vh]  bg-bottom bg-cover' style={{ backgroundImage: `url("/Banners/About us1.jpg")` }}>
             </div>
 
             <div className='w-full px-5 lg:px-[100px] xl:px-[150px] flex flex-col items-center '>
                 <div className='flex flex-col items-center justify-center w-full my-8 md:my-10'>
                     <h1 className='text-[22px] md:text-[32px] font-heading font-bold'>About Us</h1>
-                    <p className='text-[14px] md:text-[18px] font-subHeading w-full lg:w-[859px]'>   "Do It Up is a Mumbai-based event decor brand known for its luxury event styling. Founded by Taral Jadhav, we’ve created stunning decor for Bollywood celebrities and high-profile events."</p>
+                    <p className='text-[14px] md:text-[18px] font-subHeading w-full lg:w-[859px] text-center'>"Do It Up is a Mumbai-based event decor brand known for its luxury event styling. Founded by Taral Jadhav, we’ve created stunning decor for Bollywood celebrities and high-profile events."</p>
                 </div>
 
-                <div className='w-full xl:py-10 xl:px-[75px] flex flex-col-reverse lg:flex-row justify-between gap-6  xl:gap-20 items-center '>
+                <div className='w-full xl:py-10 xl:px-[75px] flex flex-col-reverse lg:flex-row justify-between gap-6  xl:gap-10 items-center '>
                     <div className='flex flex-col lg:items-center lg:text-center lg:w-[380px] xl:w-[490px]  '>
                         <div className='flex flex-col gap-3 lg:gap-2 xl:gap-4 lg:items-center w-full lg:text-center mb-5 lg:mb-3 xl:mb-7'>
-                            <h3 className='font-subHeading text-[14px] lg:text-base font-medium'>OUR TEAM</h3>
-                            <p className='text-[18px] xl:text-[24px] font-heading leading-7 lg:leading-[30px] xl:leading-8'>I love how they set everything up within hours, and the team was extremely courteous. My sister loved the cute little surprise, and that’s what truly mattered the most.</p>
+                            {/* <h3 className='font-subHeading text-[14px] lg:text-base font-medium'>OUR TEAM</h3> */}
+                            <p className='text-[18px] lg:text-[16px] xl:text-[24px] font-heading leading-7 lg:leading-[30px] xl:leading-8'>Do It Up is a 4-year-old Mumbai-based event decor brand specializing in intimate celebrations. What began as a blog by our Founder, Taral Jadhav, an architect by profession, in April 2020, has rapidly evolved into one of Mumbai’s most sought-after decor brands.</p>
                         </div>
 
-                        <div className='text-[14px] font-light font-subHeading flex flex-col lg:text-center gap-2 xl:gap-4'>
-                            <p className='leading-[22px]'>I love how they set everything up within hours, and the team was extremely courteous. My sister loved the cute little surprise, and that’s what truly mattered the most. I love how they set everything up within hours, and the team was extremely courteous. </p>
-                            <p className='leading-[22px]'>I love how they set everything up within hours, and the team was extremely courteous. My sister loved the cute little surprise, and that’s what truly mattered the most. I love how they set everything up within hours, and the team was extremely courteous.</p>
+                        <div className='text-[14px] lg:text-xs xl:text-[14px] font-light font-subHeading flex flex-col lg:text-center gap-2 xl:gap-4'>
+                            <p className='leading-[22px]'>Taral’s initial plans to launch her design firm in April 2020 were halted by the pandemic, leading her to pivot. She began curating elegant home decor ideas through her blog, offering refined tips on transforming spaces with repurposed items. </p>
+                            <p className='leading-[22px]'>Her beautifully styled personal celebrations garnered admiration and requests from friends and clients alike. Initially reserved about event decor, it was a personal request from influencer Juhi Godambe that inspired Taral to meet this growing demand—ushering in the creation of Do It Up, a luxury event decor service.</p>
                         </div>
                     </div>
 
@@ -57,25 +57,26 @@ const AboutUs = () => {
 
             {/* Founder */}
             <div className='w-full px-5 lg:px-[100px] xl:px-[150px] flex flex-col items-center '>
-                <div className='w-full py-8 md:py-10 lg:py-16  xl:px-[75px] flex flex-col lg:flex-row justify-between gap-6 xl:gap-20 items-center'>
+                <div className='w-full py-8 md:py-10 lg:py-16  xl:px-[75px] flex flex-col lg:flex-row justify-between gap-6 xl:gap-10 items-center'>
 
                     <div className='w-full lg:w-[400px] xl:w-[614px] aspect-square bg-center bg-cover' style={{ backgroundImage: `url("/About Us/IMG_0581_jpg.jpg")` }}>
                     </div>
 
                     <div className='flex flex-col lg:items-center lg:text-center lg:w-[390px] xl:w-[476px] '>
-                        <div className='flex flex-col  lg:items-center w-full mb-5  lg:mb-2 xl:mb-6'>
+                        {/* <div className='flex flex-col  lg:items-center w-full mb-5  lg:mb-2 xl:mb-6'>
                             <h1 className='text-[22px] xl:text-[32px] font-heading font-bold'>Taral Jadhav</h1>
                             <p className='text-[14px] lg:text-base font-subHeading'>Founder</p>
-                        </div>
+                        </div> */}
 
                         <div className='flex flex-col lg:items-center w-full lg:text-center mb-5 lg:mb-2 xl:mb-6'>
-                            <p className='text-[18px] xl:text-[24px] font-heading leading-7 lg:leading-[30px] xl:leading-8'>I love how they set everything up within hours, and the team was extremely courteous. My sister loved the cute little surprise, and that’s what truly mattered the most.</p>
+                            <p className='text-[18px] lg:text-[16px] xl:text-[24px] font-heading leading-7 lg:leading-[30px] xl:leading-8'>Since then, our journey has been nothing short of exhilarating. We've had the pleasure of creating decor for high-profile clients, including Bollywood stars like Kiara Advani, Janhvi Kapoor, Vicky Kaushal & Katrina Kaif, Malaika Arora, Rhea Kapoor, Akshay Kumar, and Natasha Poonawalla. </p>
                         </div>
 
-                        <div className='text-[14px] font-light font-subHeading flex flex-col lg:text-center gap-2 xl:gap-4'>
-                            <p className='leading-[22px]'>Mumbai Based Taral Jadhav - Architect and Entrepreneur made her journey into the world of start-ups in April 2020.
-                                On pursuing Architecture from Rachana Sansad's Academy of Architecture in Mumbai, Taral founded 'Do It Up' with the aim to make Interior Design and Home Makeovers, a service accessible to all. </p>
-                            <p className='leading-[22px]'>The journey has been nothing short of exciting – 4 years and almost 1000 events later – Do It Up is not only B-Town’s favourite but has also worked with some of the most renowned brands in the country. </p>
+                        <div className='text-[14px] lg:text-xs xl:text-[14px] font-light font-subHeading flex flex-col lg:text-center gap-2 xl:gap-4'>
+                            <p className='leading-[22px]'>We also specialize in custom event styling for branded events, particularly in the lifestyle and beauty sectors, working with brands such as Nykaa Fashion, Hamleys India, Pinterest India, Shilpa Shetty’s Bastian Hospitality, Yauatcha, and Cin Cin of KA Hospitality.
+                            </p>
+                            <p className='leading-[22px]'>Four years and nearly 1,000 events later, Do It Up has expanded into the wedding decor category. We kicked off the 2023-24 wedding season with four intimate weddings across Mumbai and Delhi, with many more lined up across India. Our commitment to creating personalized decor for every occasion continues to drive us, as we help our clients celebrate life's most special moments with style and elegance.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -85,8 +86,8 @@ const AboutUs = () => {
             {/* Featured in */}
             <div className='w-full px-5 lg:px-[100px] xl:px-[150px] flex flex-col items-center '>
                 <div className='w-full text-center pt-8 pb-8 md:pt-10 md:pb-10 flex flex-col items-center gap-2'>
-                    <h1 className='text-[22px] md:text-[32px] font-bold font-heading'>We are Featured in</h1>
-                    <p className='text-[14px] md:text-lg font-subHeading'>Turning your pinterest dream into reality</p>
+                    <h1 className='text-[22px] md:text-[32px] font-bold font-heading'>We are Featured</h1>
+                    <p className='text-[14px] md:text-lg font-subHeading'>In the country’s most credible publications</p>
                 </div>
 
                 {/* Cards */}
@@ -121,7 +122,7 @@ const AboutUs = () => {
 
 
             {/* Contact us */}
-            <div className='w-full h-[526px] md:h-[660px] bg-center bg-cover ' style={{ backgroundImage: `url("/Homepage/service2.jpg")` }}>
+            <div className='w-full h-[526px] md:h-[660px] bg-center bg-cover ' style={{ backgroundImage: `url("/Homepage/Contact.jpg")` }}>
                 <div className='w-full h-full flex flex-col px-5 lg:px-0 lg:pl-[100px] xl:pl-[150px] pt-20 lg:pt-[130px] bg-black md:bg-black/20 text-white'>
                     <h1 className='font-heading text-[32px]  leading-10'>Do It Up. <br></br>Do It Up Today!</h1>
                     <p className='font-subHeading text-[14px] md:text-[18px] lg:w-[610px] pt-3 pb-8 lg:pb-6'>Do It Up specialises in personalised event decor, home makeovers and transformations with a vision to create spaces that reflect personalities.</p>

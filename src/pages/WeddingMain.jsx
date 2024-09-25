@@ -39,7 +39,7 @@ const WeddingMain = () => {
                 <h1 className=" text-white font-heading text-[32px] lg:text-7xl font-light w-full">
                     Wedding by Do It Up
                 </h1>
-                <p className='text-white font-subHeading text-[14px] lg:text-2xl font-light cursor-pointer'>Good times all around</p>
+                <p className='text-white font-subHeading text-[14px] lg:text-2xl font-light cursor-pointer'>Celebrating your small & big moments </p>
             </div>
 
 
@@ -52,8 +52,8 @@ const WeddingMain = () => {
                 </div>
 
                 <div className='w-full text-center pb-8 flex flex-col items-center '>
-                    <h1 className='text-[22px] md:text-[32px] font-bold font-heading w-full lg:w-[859px] pb-8'>“If there was one way for me to play a significant role on someone’s big day, I’d choose that everyday” – Taral Jadhav</h1>
-                    <p className='text-[14px] md:text-lg font-subHeading leading-[22px] md:leading-[26px] text-center w-full lg:w-[900px]'> As our business has flourished, we’ve always known that weddings are the ultimate expression of love, and now, we’re excited to announce that Do It Up is officially offering wedding decor services. For years, we’ve mastered the art of pre-wedding festivities and intimate events, and now, we’re taking the leap to become one of the most sought-after wedding decorators in the country.
+                    <h1 className='text-[22px] md:text-[32px] font-bold font-heading w-full lg:w-[859px] pb-8'>“Crafting spaces that reflect my belief in love's magic, turning dreams into cherished memories.” – Taral Jadhav</h1>
+                    <p className='text-[14px] md:text-lg font-subHeading leading-[22px] md:leading-[26px] text-center w-full lg:w-[900px]'> As our firm grew, we’ve always known that weddings are the ultimate expression of love, and now, we’re excited to announce that Do It Up is officially offering wedding decor services. For years, we’ve mastered the art of pre-wedding festivities and intimate events, and now, we’re taking the leap to become one of the most sought-after wedding designers in the country.
                     </p>
                     <p className='text-[14px] md:text-lg font-subHeading leading-[22px] md:leading-[26px] text-center w-full lg:w-[900px] pt-2 '>From our very first wedding at a hilltop in Karjat to the latest one we’re planning in Italy, every wedding we curate fills us with immense pride and a sense of accomplishment. Our passion lies in crafting settings that not only reflect the couple’s vision but also tell their unique story. Whether it's a lavish celebration or an intimate affair, our goal is to create luxury wedding decor that resonates with the couple's dreams and leaves a lasting impression.
                     </p>

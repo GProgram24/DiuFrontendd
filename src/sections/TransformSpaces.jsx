@@ -59,7 +59,7 @@ const TransformSpaces = () => {
         <div className='w-full  px-5 md:px-0 flex flex-col items-center '>
             <div className='w-full text-center pt-10 pb-8 md:pb-10 flex flex-col items-center gap-2'>
                 <h1 className='text-[22px] md:text-[32px] font-bold font-heading '>How we transform Spaces</h1>
-                <p className='text-[14px] md:text-lg font-subHeading'>See Before and After</p>
+                <p className='text-[14px] md:text-lg font-subHeading'>Slide to see the Do It Up magic</p>
             </div>
 
             <div id="comparison" className=''></div>

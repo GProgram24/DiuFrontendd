@@ -4,7 +4,7 @@ import { NatashaWeddingg } from '../../../utils/constants';
 import { NatashaWeddingMoodBoard } from '../../../utils/constants';
 import Slider from 'react-slick';
 import MoodBoard from '../../sections/MoodBoard';
-import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const NatashaWedding = () => {
@@ -40,7 +40,7 @@ const NatashaWedding = () => {
                 <h1 className=" text-white font-heading text-[32px] lg:text-7xl font-light w-full">
                     Natasha & Rana
                 </h1>
-                <p className='text-white font-subHeading text-[14px] lg:text-2xl font-light cursor-pointer'>Good times all around</p>
+                <p className='text-white font-subHeading text-[14px] lg:text-2xl font-light cursor-pointer'>The backyard wedding </p>
             </div>
 
 
@@ -67,27 +67,20 @@ const NatashaWedding = () => {
 
                 <div className='w-full flex flex-col lg:flex-row justify-between py-5 gap-10 items-center'>
                     <div className='w-full lg:w-[55%] flex flex-col gap-4 xl:gap-6'>
-                        <h2 className='text-base font-subHeading font-medium'>Ceremony Setting</h2>
+                        <h2 className='text-base xl:text-lg font-subHeading font-medium'>Ceremony Setting</h2>
                         {/* <h1 className='text-[18px] lg:text-2xl font-heading leading-7 lg:leading-[30px] xl:leading-8'>“I love how they set everything up within hours, and the team was extremely courteous. My sister loved the cute little surprise, and that’s what truly mattered the most. I love how they set everything up within hours, and the team was extremely courteous.”</h1> */}
-                        <div className='flex flex-col gap-2 xl:gap-3 text-[14px] font-subHeading leading-[22px] '>
+                        <div className='flex flex-col gap-2 xl:gap-3 text-[14px] xl:text-base font-subHeading leading-[22px] '>
                             <p>The heart of their ceremony was the transformation of the existing cabana into a stunning focal point. Adorned with soft pastel florals in shades of blush pink, lavender, and creamy white, the cabana was elevated to a dreamy, romantic space. A delicate chandelier hung from the cabana’s ceiling, adding elegance and sparkle, casting a warm, inviting glow over the proceedings. We carefully selected wooden cane furniture, which perfectly complemented the luxury wedding decor  and added to the garden ambiance, while providing stylish seating for the intimate gathering.</p>
                         </div>
 
-                        <h2 className='text-base font-subHeading font-medium'>Aisle and Entry</h2>
-                        <div className='flex flex-col gap-2 xl:gap-3 text-[14px] font-subHeading leading-[22px] '>
+                        <h2 className='text-base xl:text-lg font-subHeading font-medium'>Aisle and Entry</h2>
+                        <div className='flex flex-col gap-2 xl:gap-3 text-[14px] xl:text-base font-subHeading leading-[22px] '>
                             <p>The aisle, leading up to the cabana, was lined with lush floral arrangements in soft pastels, creating a cascading effect down the sides. These floral displays highlighted the path and enhanced the overall garden feel, making it seem as though the couple was walking through a whimsical floral pathway. At the entrance, a grand floral arch welcomed guests and framed the cabana perfectly. This arch, adorned with a harmonious blend of pastel flowers and greenery, provided a picturesque backdrop for the vows and a stunning setting for photos.
                             </p>
                         </div>
                     </div>
 
                     <div className='w-full lg:w-[40%]'>
-                        <div className='w-full  h-[500px] xl:h-[635px] bg-center bg-cover' style={{ backgroundImage: `url("/Weddings/Natasha wedding/Ethereal images/RanaNatasha-5136-1K8A4826.jpg")` }}></div>
-                    </div>
-                </div>
-
-
-                <div className='w-full flex justify-between py-5 gap-10 items-center'>
-                    <div className='w-[40%] hidden lg:block'>
                         <div className='w-full lg:h-[500px] xl:h-[635px] bg-center bg-cover'>
                             <video
                                 className='w-full h-full object-cover'
@@ -100,11 +93,18 @@ const NatashaWedding = () => {
                             </video>
                         </div>
                     </div>
+                </div>
+
+
+                <div className='w-full flex justify-between py-5 gap-10 items-center'>
+                    <div className='w-[40%] hidden lg:block'>
+                        <div className='w-full  h-[500px] xl:h-[635px] bg-center bg-cover' style={{ backgroundImage: `url("/Weddings/Natasha wedding/Ethereal images/RanaNatasha-9128-1K8A6789.jpg")` }}></div>
+                    </div>
 
                     <div className='w-full lg:w-[55%] flex flex-col gap-4 xl:gap-6'>
-                        <h2 className='text-base font-subHeading font-medium'>Reception</h2>
+                        <h2 className='text-base xl:text-lg font-subHeading font-medium'>Reception</h2>
                         {/* <h1 className='text-[18px] lg:text-2xl font-heading leading-7 lg:leading-[30px] xl:leading-8'>“I love how they set everything up within hours, and the team was extremely courteous. My sister loved the cute little surprise, and that’s what truly mattered the most. I love how they set everything up within hours, and the team was extremely courteous.”</h1> */}
-                        <div className='flex flex-col gap-2 xl:gap-3 text-[14px] font-subHeading leading-[22px] '>
+                        <div className='flex flex-col gap-2 xl:gap-3 text-[14px] xl:text-base font-subHeading leading-[22px] '>
                             <p>The evening reception took place under the stars, in the same picturesque backyard. Guests enjoyed a delightful feast, with soft string lights and lanterns adding a magical touch to the night. The celebration was filled with music, laughter, and lively dances, creating an atmosphere of joy and togetherness. The custom decor we provided, with its seamless transition from ceremony to reception, ensured that the evening was warm, intimate, and filled with unforgettable moments.</p>
                             {/* <p>I love how they set everything up within hours, and the team was extremely courteous. My sister loved the cute little surprise, and that’s what truly mattered the most. I love how they set everything up within hours, and the team was extremely courteous. My sister loved the cute little surprise, and that’s what truly mattered the most.</p> */}
                         </div>

@@ -28,7 +28,7 @@ const OurCollaborations = () => {
         <div className='w-full  px-5 lg:px-[100px] xl:px-[150px] flex flex-col items-center'>
             <div className='w-full text-center pt-10 pb-6 flex flex-col items-center gap-2'>
                 <h1 className='text-[22px] md:text-[32px] font-bold font-heading '>Our Collaborations</h1>
-                <p className='text-[14px] md:text-lg font-subHeading'>Turning your pinterest dream into reality</p>
+                {/* <p className='text-[14px] md:text-lg font-subHeading'>Turning your pinterest dream into reality</p> */}
             </div>
 
             {/* 3 images */}
@@ -41,9 +41,9 @@ const OurCollaborations = () => {
                             <div key={index} className='relative w-full aspect-square p-1 lg:p-2 xl:p-3 '>
                                 <img src={data.img} alt={data.eventName} className='w-full h-full object-cover' />
 
-                                <div className='absolute inset-0 w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-6 pb-5'>
-                                    <h1 className='text-[16px] md:text-[22px]  font-medium'>{data.eventName}</h1>
-                                    <p className='text-[14px] md:text-lg font-light'>{data.location}</p>
+                                <div className='absolute inset-0 w-full h-full font-subHeading text-white flex flex-col items-start justify-end px-6 pb-5'>
+                                    <h1 className='text-[16px] xl:text-[22px]  font-medium'>{data.eventName}</h1>
+                                    <p className='text-[14px] xl:text-lg font-light'>{data.location}</p>
                                 </div>
                             </div>
                         ))

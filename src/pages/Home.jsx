@@ -24,13 +24,13 @@ const Home = () => {
                 <h1 className=" text-white font-heading text-[32px] lg:text-7xl font-light w-full">
                     Do It Up. Do It Today!
                 </h1>
-                <p className='text-white font-subHeading text-[14px] lg:text-2xl font-light cursor-pointer'>Adding a spark to your everyday celebrations!</p>
+                <p className='text-white font-subHeading text-[14px] lg:text-2xl font-light cursor-pointer'>"Transforming your special moments into lasting memories"</p>
             </div>
 
 
             <div className='w-full  px-5 lg:px-[100px] xl:px-[150px] flex flex-col items-center mt-10 '>
                 
-                    <p className='text-[14px] md:text-lg font-subHeading w-full lg:w-[900px] text-center '> "Discover Do It Up, Mumbai’s premier event decorators specializing in luxury decor for weddings, brand events, and intimate celebrations. Turn your vision into unforgettable Instagram-worthy moments."</p>
+                    <p className='text-[14px] md:text-lg font-subHeading w-full lg:w-[900px] text-center '> "Discover Do It Up, a dynamic team of Mumbai-based event designers specializing in luxury decor for weddings, brand events, and intimate celebrations. Turn your vision into unforgettable Instagram-worthy moments."</p>
                
             </div>
 

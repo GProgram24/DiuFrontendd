@@ -66,7 +66,7 @@ const ContactUs = () => {
             <div className='w-full px-5 lg:px-[100px] xl:px-[150px] flex flex-col items-center'>
                 <div className='w-full text-center py-10 flex flex-col items-center gap-2'>
                     <h1 className='text-[22px] md:text-[32px] font-bold font-heading '>Contact Us</h1>
-                    <p className='text-[14px] md:text-lg font-subHeading '>Turning your pinterest dream into reality</p>
+                    {/* <p className='text-[14px] md:text-lg font-subHeading '>Turning your pinterest dream into reality</p> */}
                 </div>
 
                 {/* form */}
@@ -76,44 +76,44 @@ const ContactUs = () => {
                         className=' w-full xl:w-[725.68px] md:pb-5'>
 
                         <div className='mb-5 '>
-                            <input name="Name" type='text' value={formData.Name} onChange={handleChange} className='w-full p-4 rounded-lg text-base border border-black/40 focus:border-black outline-none' placeholder='Your Name' required />
+                            <input name="Name" type='text' value={formData.Name} onChange={handleChange} className='w-full p-4 rounded-lg text-base border border-black/40 focus:border-black outline-none' placeholder='Your Name*' required />
                         </div>
 
                         <div className='mb-5 '>
-                            <input name="Email" type='email' value={formData.Email} onChange={handleChange} className='w-full p-4 rounded-lg text-base border border-black/40 focus:border-black outline-none' placeholder='Email' required />
+                            <input name="Email" type='email' value={formData.Email} onChange={handleChange} className='w-full p-4 rounded-lg text-base border border-black/40 focus:border-black outline-none' placeholder='Email*' required />
                         </div>
 
                         <div className='mb-5'>
-                            <input name="PhoneNumber" type='number' value={formData.PhoneNumber} onChange={handleChange} className='w-full p-4 rounded-lg text-base border border-black/40 focus:border-black outline-none' placeholder='Phone Number' required />
+                            <input name="PhoneNumber" type='number' value={formData.PhoneNumber} onChange={handleChange} className='w-full p-4 rounded-lg text-base border border-black/40 focus:border-black outline-none' placeholder='Phone Number*' required />
                         </div>
 
                         <div className='mb-5'>
-                            <input name="Occasion" type='text' value={formData.Occasion} onChange={handleChange} className=' w-full p-4 rounded-lg text-base border border-black/40 focus:border-black outline-none' placeholder='Occasion' required></input>
+                            <input name="Occasion" type='text' value={formData.Occasion} onChange={handleChange} className=' w-full p-4 rounded-lg text-base border border-black/40 focus:border-black outline-none' placeholder='Occasion*' required></input>
                         </div>
 
 
                         <div className='mb-5'>
-                            <input name="DateOfEvent" type='text' value={formData.DateOfEvent} onChange={handleChange} className=' w-full p-4 rounded-lg text-base border border-black/40 focus:border-black outline-none' placeholder='Date of Event' required></input>
+                            <input name="DateOfEvent" type='text' value={formData.DateOfEvent} onChange={handleChange} className=' w-full p-4 rounded-lg text-base border border-black/40 focus:border-black outline-none' placeholder='Date of Event*' required></input>
                         </div>
 
                         <div className='mb-5 '>
-                            <input name="Location" type='text' value={formData.Location} onChange={handleChange} className=' w-full p-4 rounded-lg text-base border border-black/40 focus:border-black outline-none' placeholder='Location' required></input>
+                            <input name="Location" type='text' value={formData.Location} onChange={handleChange} className=' w-full p-4 rounded-lg text-base border border-black/40 focus:border-black outline-none' placeholder='Location' ></input>
                         </div>
 
                         <div className='mb-5'>
-                            <input name="NoOfGuests" type='number' value={formData.NoOfGuests} onChange={handleChange} className=' w-full p-4 rounded-lg text-base border border-black/40 focus:border-black outline-none' placeholder='Number of Guests' required></input>
+                            <input name="NoOfGuests" type='number' value={formData.NoOfGuests} onChange={handleChange} className=' w-full p-4 rounded-lg text-base border border-black/40 focus:border-black outline-none' placeholder='Number of Guests' ></input>
                         </div>
 
                         <div className='mb-5'>
-                            <input name="Budget" type='number' value={formData.Budget} onChange={handleChange} className=' w-full p-4 rounded-lg text-base border border-black/40 focus:border-black outline-none' placeholder='Budget' required></input>
+                            <input name="Budget" type='number' value={formData.Budget} onChange={handleChange} className=' w-full p-4 rounded-lg text-base border border-black/40 focus:border-black outline-none' placeholder='Budget' ></input>
                         </div>
 
                         <div className='mb-5 '>
-                            <input name="References" type='text' value={formData.References} onChange={handleChange} className=' w-full p-4 rounded-lg text-base border border-black/40 focus:border-black outline-none' placeholder='References' required></input>
+                            <input name="References" type='text' value={formData.References} onChange={handleChange} className=' w-full p-4 rounded-lg text-base border border-black/40 focus:border-black outline-none' placeholder='References' ></input>
                         </div>
 
                         <div className='mb-5 '>
-                            <textarea name="Details" type='text' value={formData.Details} onChange={handleChange} rows='6' className=' w-full p-4 rounded-lg text-base border border-black/40 max-h-[20rem] focus:border-black outline-none' placeholder='Details' required></textarea>
+                            <textarea name="Details" type='text' value={formData.Details} onChange={handleChange} rows='6' className=' w-full p-4 rounded-lg text-base border border-black/40 max-h-[20rem] focus:border-black outline-none' placeholder='Details' ></textarea>
                         </div>
 
                         <button className='lg:px-16 py-3  lg:py-2 rounded-xl w-full lg:w-auto rounded-base text-base font-medium bg-black text-white'>Submit</button>

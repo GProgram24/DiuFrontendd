@@ -109,7 +109,7 @@ const OurGallery = () => {
                 {/*--------------------------------  Col 3  ---------------------------------------- */}
 
                 <div className='w-full lg:flex flex-col gap-5 hidden '>
-                    <div className="w-full md:h-[220px] xl:h-[300px] bg-center bg-cover" style={{ backgroundImage: `url("/Collaborations/Kiara Advani/Copy of IMG_2928_jpg.jpg")` }}>
+                    <div className="w-full md:h-[220px] xl:h-[300px] bg-center bg-cover" style={{ backgroundImage: `url("/Collaborations/Jahnvi Kapoor/Copy_of_IMG_3092.jpg")` }}>
                         <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-6 pb-5 transition-opacity duration-300 ease-in-out">
                             <h1 className="text-base leading-tight">Name of the Event</h1>
                             <p className="text-sm font-light">Location</p>
@@ -144,22 +144,16 @@ const OurGallery = () => {
                         </div>
                     </div>
 
-                    <div className="w-full md:h-[400px] xl:h-[477px] bg-center bg-cover" style={{ backgroundImage: `url("/Collaborations/Kiara Advani/Copy of IMG_2958.jpg")` }}>
+                    <div className="w-full md:h-[400px] xl:h-[477px] bg-center bg-cover" style={{ backgroundImage: `url("/Collaborations/CisterCo/17124872552716313.jpeg")` }}>
                         <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-6 pb-5 transition-opacity duration-300 ease-in-out">
                             <h1 className="text-base leading-tight">Name of the Event</h1>
                             <p className="text-sm font-light">Location</p>
                         </div>
                     </div>
-
                 </div>
-
-
             </div>
 
         </div>
-
-
-
     )
 }
 
