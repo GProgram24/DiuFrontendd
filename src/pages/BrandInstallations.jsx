@@ -51,7 +51,7 @@ const BrandInstallations = () => {
                 <div className='w-full flex flex-col items-center '>
                     <div className='w-full text-center pt-10 pb-10 flex flex-col items-center gap-2'>
                         <h1 className='text-[22px] md:text-[32px] font-bold font-heading '>Our Featured Events</h1>
-                        <p className='text-[14px] md:text-lg font-subHeading'>Turning your pinterest dream into reality</p>
+                        {/* <p className='text-[14px] md:text-lg font-subHeading'>Turning your pinterest dream into reality</p> */}
                     </div>
 
                     <div className='w-full pb-10 md:pb-0'>

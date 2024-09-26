@@ -5,7 +5,7 @@ const OurGallery = () => {
         <div className='w-full min-h-[80vh] flex flex-col items-center pb-14'>
             <div className='w-full text-center pt-10 pb-8 flex flex-col items-center gap-2'>
                 <h1 className='text-[22px] md:text-[32px] font-bold font-heading '>Our Gallery</h1>
-                <p className='text-[14px] md:text-lg font-subHeading'>Turning your pinterest dream into reality</p>
+                {/* <p className='text-[14px] md:text-lg font-subHeading'>Turning your pinterest dream into reality</p> */}
             </div>
 
             <div className='w-full grid grid-cols-2 lg:grid-cols-3 gap-[6px] md:gap-5 place-items-center '>
