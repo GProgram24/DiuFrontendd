@@ -8,8 +8,11 @@ const Footer = () => {
 
     const handleMouseEnter = () => setDropdownOpen(true);
     const handleMouseLeave = () => setDropdownOpen(false);
+
+    const closeDropdown = () => setDropdownOpen(false); // Close the dropdown function
+
     return (
-        <footer className='w-full min-h-[56px]  lg:px-[100px] xl:px-[150px] py-5 lg:py-0 flex items-center '>
+        <footer className='w-full min-h-[56px]  lg:px-[100px] xl:px-[150px] py-5 lg:py-0 flex items-center bg-yellow-100'>
             <div className='w-full h-full flex flex-col lg:flex-row justify-center items-center lg:justify-between gap-9 lg:gap-0'>
                 <nav className=' h-full'>
                     <div className='flex flex-wrap justify-center  gap-6 md:gap-16 lg:h-full font-subHeading text-[14px] md:text-base text-black  items-center'>
@@ -30,12 +33,14 @@ const Footer = () => {
                                     <NavLink
                                         to='/intimateEvents'
                                         className={({ isActive }) => isActive ? 'font-semibold block px-4 py-2' : 'font-medium block px-4 py-2'}
+                                        onClick={closeDropdown} // Close dropdown on click
                                     >
                                         Intimate Events
                                     </NavLink>
                                     <NavLink
                                         to='/brandInstallations'
                                         className={({ isActive }) => isActive ? 'font-semibold block px-4 py-2' : 'font-medium block px-4 py-2'}
+                                        onClick={closeDropdown} // Close dropdown on click
                                     >
                                         Brand Installations
                                     </NavLink>
@@ -64,4 +69,4 @@ const Footer = () => {
     )
 }
 
-export default Footer
+export default Footer;
