@@ -13,23 +13,23 @@ const FeaturedIn = () => {
 
             <div className='w-[100%]'>
                 <div className='w-full flex items-center justify-around'>
-                    <a href='https://www.vogue.in/promotion/this-restaurant-in-mumbai-offers-a-bespoke-outdoor-dining-experience-like-no-other'>
+                    <a href='https://www.vogue.in/promotion/this-restaurant-in-mumbai-offers-a-bespoke-outdoor-dining-experience-like-no-other' target="_blank" rel="noopener noreferrer">
                         <img src='/Homepage/featuredLogos/Vogue.png' className='w-28 h-14 md:w-48 md:h-16 xl:w-48 xl:h-20'></img>
                     </a>
 
-                    <a href='https://www.architecturaldigest.in/story/a-century-old-colonial-mansion-turned-into-a-boutique-stay-in-matheran/'>
+                    <a href='https://www.architecturaldigest.in/story/a-century-old-colonial-mansion-turned-into-a-boutique-stay-in-matheran/' target="_blank" rel="noopener noreferrer">
                         <img src='/Homepage/featuredLogos/AD.png' className='w-30 h-14 xl:w-42 xl:h-16 hidden md:block'></img>
                     </a>
 
-                    <a href='https://www.cntraveller.in/story/indian-startups-mumbai-bengaluru-throw-a-killer-house-party/'>
+                    <a href='https://www.cntraveller.in/story/indian-startups-mumbai-bengaluru-throw-a-killer-house-party/' target="_blank" rel="noopener noreferrer">
                         <img src='/Homepage/featuredLogos/Traveler.png' className='w-24 h-14 md:w-30 md:h-16 xl:w-42 xl:h-20'></img>
                     </a>
 
-                    <a href=''>
-                        <img src='/Homepage/featuredLogos/Forbes.png' className='w-24 h-14 md:w-30 md:h-16 xl:w-42 xl:h-20'></img>
+                    <a href='https://www.beautifulhomes.asianpaints.com/magazine/lifestyle/culture/these-expert-tips-will-make-your-diwali-decor-easy.html' target="_blank" rel="noopener noreferrer">
+                        <img src='/Homepage/featuredLogos/Asianpaints.png' className='w-20 h-14 md:w-30 md:h-16 xl:w-42 xl:h-20'></img>
                     </a>
 
-                    <a href='https://www.cosmopolitan.in/life/features/story/dine-in-luxury-under-the-stars-at-gallops-al-frescos-newly-revamped-cabanas-1008375-2024-05-17'>
+                    <a href='https://www.cosmopolitan.in/life/features/story/dine-in-luxury-under-the-stars-at-gallops-al-frescos-newly-revamped-cabanas-1008375-2024-05-17' target="_blank" rel="noopener noreferrer">
                         <img src='/Homepage/featuredLogos/Cosmopolitan.png' className='w-30 h-10 xl:w-60 xl:h-10 hidden lg:block'></img>
                     </a>
                 </div>

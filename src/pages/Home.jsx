@@ -30,7 +30,7 @@ const Home = () => {
 
             <div className='w-full  px-5 lg:px-[100px] xl:px-[150px] flex flex-col items-center mt-10 '>
                 
-                    <p className='text-[14px] md:text-lg font-subHeading w-full lg:w-[900px] text-center '> "Discover Do It Up, a dynamic team of Mumbai-based event designers specializing in luxury decor for weddings, brand events, and intimate celebrations. Turn your vision into unforgettable Instagram-worthy moments."</p>
+                    <p className='text-[14px] md:text-lg font-subHeading w-full lg:w-[900px] text-center '> "Discover Do It Up, Mumbai’s bespoke event designers specializing in luxury decor for weddings, brand events, and intimate celebrations. Adding a spark to your milestones"</p>
                
             </div>
 

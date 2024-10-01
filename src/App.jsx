@@ -6,6 +6,7 @@ import Header from './components/Header'
 import Header1 from './components/Header1'
 import Footer from './components/Footer'
 import ScrollToTop from './components/ScrollToTop'
+import WhatsAppButton from './components/WhatsAppButton';
 
 const Home = React.lazy(() => import('./pages/Home'));
 const AboutUs = React.lazy(() => import('./pages/AboutUs'));
@@ -69,6 +70,7 @@ function App() {
         </Routes>
       </Suspense>
       <Footer />
+      <WhatsAppButton/>
     </div>
   );
 }

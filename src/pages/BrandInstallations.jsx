@@ -89,28 +89,28 @@ const BrandInstallations = () => {
                             <div className="w-full h-[128px] md:h-[220px] xl:h-[300px]   bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Brand Installations/Others/Bridgerton Jio Tea party/Copy of IMG_9346.JPG")` }}>
                                 <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-3 md:pl-6 pb-3 md:pb-5 transition-opacity duration-300 ease-in-out">
                                     <h1 className="text-base leading-tight">Name of the Event</h1>
-                                    <p className="text-sm font-light">Location</p>
+                                    
                                 </div>
                             </div>
 
                             <div className="w-full h-[188px] md:h-[400px] xl:h-[477px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Brand Installations/Others/Biore/Copy of IMG_0169.jpg")` }}>
                                 <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-3 md:pl-6 pb-3 md:pb-5 transition-opacity duration-300 ease-in-out">
                                     <h1 className="text-base leading-tight">Name of the Event</h1>
-                                    <p className="text-sm font-light">Location</p>
+                                    
                                 </div>
                             </div>
 
                             <div className="w-full h-[128px] md:h-[220px] xl:h-[300px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Brand Installations/Others/Gallops Cabanas/Copy of IMG_2514.jpg")` }}>
                                 <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-3 md:pl-6 pb-3 md:pb-5 transition-opacity duration-300 ease-in-out">
                                     <h1 className="text-base leading-tight">Name of the Event</h1>
-                                    <p className="text-sm font-light">Location</p>
+                                    
                                 </div>
                             </div>
 
                             <div className="w-full h-[188px] md:h-[400px] xl:h-[477px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Brand Installations/Others/Gunam beauty/Copy of IMG_7366_jpg.jpg")` }}>
                                 <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-3 md:pl-6 pb-3 md:pb-5 transition-opacity duration-300 ease-in-out">
                                     <h1 className="text-base leading-tight">Name of the Event</h1>
-                                    <p className="text-sm font-light">Location</p>
+                                    
                                 </div>
                             </div>
 
@@ -125,28 +125,28 @@ const BrandInstallations = () => {
                             <div className="w-full h-[188px] md:h-[400px] xl:h-[477px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Brand Installations/Others/InnisFree/Copy of D1BAA1C5-7505-45F6-8782-737A2A305F2D.png")` }}>
                                 <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-3 md:pl-6 pb-3 md:pb-5 transition-opacity duration-300 ease-in-out">
                                     <h1 className="text-base leading-tight">Name of the Event</h1>
-                                    <p className="text-sm font-light">Location</p>
+                                    
                                 </div>
                             </div>
 
                             <div className="w-full h-[128px] md:h-[220px] xl:h-[300px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Brand Installations/Others/Jolie’s Greek party/Copy of IMG_2075.jpg")` }}>
                                 <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-3 md:pl-6 pb-3 md:pb-5 transition-opacity duration-300 ease-in-out">
                                     <h1 className="text-base leading-tight">Name of the Event</h1>
-                                    <p className="text-sm font-light">Location</p>
+                                    
                                 </div>
                             </div>
 
                             <div className="w-full h-[188px] md:h-[400px] xl:h-[477px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Brand Installations/Others/Jolie’s Xmas/Copy of IMG_5755.jpg")` }}>
                                 <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-3 md:pl-6 pb-3 md:pb-5 transition-opacity duration-300 ease-in-out">
                                     <h1 className="text-base leading-tight">Name of the Event</h1>
-                                    <p className="text-sm font-light">Location</p>
+                                    
                                 </div>
                             </div>
 
                             <div className="w-full h-[128px] md:h-[220px] xl:h-[300px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Brand Installations/Others/Koko - Foo/Copy of Photo 2021-12-27 06.23.00 PM.jpg")` }}>
                                 <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-3 md:pl-6 pb-3 md:pb-5 transition-opacity duration-300 ease-in-out">
                                     <h1 className="text-base leading-tight">Name of the Event</h1>
-                                    <p className="text-sm font-light">Location</p>
+                                    
                                 </div>
                             </div>
 
@@ -161,28 +161,28 @@ const BrandInstallations = () => {
                             <div className="w-full md:h-[220px] xl:h-[300px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Brand Installations/Others/See Love/Copy of IMG_9353.jpg")` }}>
                                 <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-6 pb-5 transition-opacity duration-300 ease-in-out">
                                     <h1 className="text-base leading-tight">Name of the Event</h1>
-                                    <p className="text-sm font-light">Location</p>
+                                    
                                 </div>
                             </div>
 
                             <div className="w-full md:h-[400px] xl:h-[477px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Brand Installations/Others/Sulwhasoo/Copy of IMG_9512.jpg")` }}>
                                 <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-6 pb-5 transition-opacity duration-300 ease-in-out">
                                     <h1 className="text-base leading-tight">Name of the Event</h1>
-                                    <p className="text-sm font-light">Location</p>
+                                    
                                 </div>
                             </div>
 
                             <div className="w-full md:h-[220px] xl:h-[300px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Brand Installations/Others/Yauatcha Chinese New year/Copy of IMG_8985.jpg")` }}>
                                 <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-6 pb-5 transition-opacity duration-300 ease-in-out">
                                     <h1 className="text-base leading-tight">Name of the Event</h1>
-                                    <p className="text-sm font-light">Location</p>
+                                    
                                 </div>
                             </div>
 
                             <div className="w-full md:h-[400px] xl:h-[477px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Brand Installations/Others/InnisFree/Copy of 3B61DB4F-37F4-4C03-B387-694366AB327C.png")` }}>
                                 <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-6 pb-5 transition-opacity duration-300 ease-in-out">
                                     <h1 className="text-base leading-tight">Name of the Event</h1>
-                                    <p className="text-sm font-light">Location</p>
+                                    
                                 </div>
                             </div>
                         </div>

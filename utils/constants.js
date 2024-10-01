@@ -31,7 +31,7 @@ export const collaboration = [
     },
     {
         img:"/Collaborations/Sakshi Sindhwani/Copy of DGP_0986.jpg",
-       eventName: "Sakshi Sindhwani's Christmas Bash",
+       eventName: "Sakshi Sindhwani's Christmas",
        location: "Delhi"
     },
     {

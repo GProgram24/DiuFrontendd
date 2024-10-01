@@ -4,7 +4,7 @@ const MoodBoard = ({cards}) => {
     return (
         <div className='w-full flex flex-col items-center'>
             <div className='w-full text-center pt-8 md:pt-10 pb-8 flex flex-col items-center gap-2'>
-                <h1 className='text-[22px] md:text-[32px] font-bold font-heading '>Our Mood Board</h1>
+                <h1 className='text-[22px] md:text-[32px] font-bold font-heading '>Gallery</h1>
                 {/* <p className='text-[14px] md:text-lg font-subHeading'>Turning your pinterest dream into reality</p> */}
             </div>
 

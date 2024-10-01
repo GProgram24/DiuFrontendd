@@ -63,7 +63,7 @@ const IntimateEvents = () => {
                                         <div className='w-full aspect-square ' >
                                             <img src={data.img} className='w-full h-full bg-cover bg-center'></img>
                                         </div>
-                                        <h1 className='text-[22px] md:text-[18px] lg:text-[22px] font-heading w-full text-center mt-3'>{data.eventName}</h1>
+                                        <h1 className='text-[22px] md:text-[18px] xl:text-[22px] font-heading w-full text-center mt-3'>{data.eventName}</h1>
                                         <Link to={data.link}><button className='text-base md:text-[14px] lg:text-base font-medium font-subHeading w-full border border-black hover:bg-black hover:text-white transition-all duration-300 ease-in-out py-2 rounded-xl mt-3'>VIEW EVENT</button></Link>
                                     </div>
                                 ))
@@ -88,28 +88,28 @@ const IntimateEvents = () => {
                             <div className="w-full h-[128px] md:h-[220px] xl:h-[300px]   bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Others/Baby Shower/Copy of IMG_5335.jpg")` }}>
                                 <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-3 md:pl-6 pb-3 md:pb-5 transition-opacity duration-300 ease-in-out">
                                     <h1 className="text-base leading-tight">Name of the Event</h1>
-                                    <p className="text-sm font-light">Location</p>
+                                    
                                 </div>
                             </div>
 
                             <div className="w-full h-[188px] md:h-[400px] xl:h-[477px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Others/Birthdays/Copy of 896D7258-C839-448F-B407-AA60F18C9324.png")` }}>
                                 <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-3 md:pl-6 pb-3 md:pb-5 transition-opacity duration-300 ease-in-out">
                                     <h1 className="text-base leading-tight">Name of the Event</h1>
-                                    <p className="text-sm font-light">Location</p>
+                                    
                                 </div>
                             </div>
 
                             <div className="w-full h-[128px] md:h-[220px] xl:h-[300px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Others/Bridal Shower/Copy of IMG_0129_jpg.JPG")` }}>
                                 <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-3 md:pl-6 pb-3 md:pb-5 transition-opacity duration-300 ease-in-out">
                                     <h1 className="text-base leading-tight">Name of the Event</h1>
-                                    <p className="text-sm font-light">Location</p>
+                                    
                                 </div>
                             </div>
 
                             <div className="w-full h-[188px] md:h-[400px] xl:h-[477px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Others/Pre Wedding/Ashuli & Anurag/Copy of IMG_6364.jpg")` }}>
                                 <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-3 md:pl-6 pb-3 md:pb-5 transition-opacity duration-300 ease-in-out">
                                     <h1 className="text-base leading-tight">Name of the Event</h1>
-                                    <p className="text-sm font-light">Location</p>
+                                    
                                 </div>
                             </div>
 
@@ -124,28 +124,28 @@ const IntimateEvents = () => {
                             <div className="w-full h-[188px] md:h-[400px] xl:h-[477px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Others/Pre Wedding/Wedding Lunch/Copy of IMG_5089.jpg")` }}>
                                 <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-3 md:pl-6 pb-3 md:pb-5 transition-opacity duration-300 ease-in-out">
                                     <h1 className="text-base leading-tight">Name of the Event</h1>
-                                    <p className="text-sm font-light">Location</p>
+                                    
                                 </div>
                             </div>
 
                             <div className="w-full h-[128px] md:h-[220px] xl:h-[300px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Others/Proposals/Copy of IMG_2766.JPG")` }}>
                                 <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-3 md:pl-6 pb-3 md:pb-5 transition-opacity duration-300 ease-in-out">
                                     <h1 className="text-base leading-tight">Name of the Event</h1>
-                                    <p className="text-sm font-light">Location</p>
+                                    
                                 </div>
                             </div>
 
                             <div className="w-full h-[188px] md:h-[400px] xl:h-[477px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Others/Baby Shower/Copy of IMG_7529.jpg")` }}>
                                 <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-3 md:pl-6 pb-3 md:pb-5 transition-opacity duration-300 ease-in-out">
                                     <h1 className="text-base leading-tight">Name of the Event</h1>
-                                    <p className="text-sm font-light">Location</p>
+                                    
                                 </div>
                             </div>
 
                             <div className="w-full h-[128px] md:h-[220px] xl:h-[300px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Others/Birthdays/Copy of B397289B-71B9-4A56-8261-1E24D2D2625B.png")` }}>
                                 <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-3 md:pl-6 pb-3 md:pb-5 transition-opacity duration-300 ease-in-out">
                                     <h1 className="text-base leading-tight">Name of the Event</h1>
-                                    <p className="text-sm font-light">Location</p>
+                                    
                                 </div>
                             </div>
 
@@ -160,28 +160,28 @@ const IntimateEvents = () => {
                             <div className="w-full md:h-[220px] xl:h-[300px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Others/Bridal Shower/Copy of IMG_1948.jpg")` }}>
                                 <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-6 pb-5 transition-opacity duration-300 ease-in-out">
                                     <h1 className="text-base leading-tight">Name of the Event</h1>
-                                    <p className="text-sm font-light">Location</p>
+                                    
                                 </div>
                             </div>
 
                             <div className="w-full md:h-[400px] xl:h-[477px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Others/Pre Wedding/Ashuli & Anurag/Copy of IMG_6366.jpg")` }}>
                                 <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-6 pb-5 transition-opacity duration-300 ease-in-out">
                                     <h1 className="text-base leading-tight">Name of the Event</h1>
-                                    <p className="text-sm font-light">Location</p>
+                                    
                                 </div>
                             </div>
 
                             <div className="w-full md:h-[220px] xl:h-[300px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Others/Pre Wedding/Wedding Lunch/Copy of IMG_5092.jpg")` }}>
                                 <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-6 pb-5 transition-opacity duration-300 ease-in-out">
                                     <h1 className="text-base leading-tight">Name of the Event</h1>
-                                    <p className="text-sm font-light">Location</p>
+                                    
                                 </div>
                             </div>
 
                             <div className="w-full md:h-[400px] xl:h-[477px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Others/Proposals/Copy of 0c1bbbc2-6b09-44c0-ba0f-cf49f79b916c.jpg")` }}>
                                 <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-6 pb-5 transition-opacity duration-300 ease-in-out">
                                     <h1 className="text-base leading-tight">Name of the Event</h1>
-                                    <p className="text-sm font-light">Location</p>
+                                    
                                 </div>
                             </div>
                         </div>

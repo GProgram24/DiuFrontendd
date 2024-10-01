@@ -37,7 +37,7 @@ const WeddingMain = () => {
 
             <div className="absolute inset-0 xl:aspect-video flex flex-col items-center justify-end pb-16 xl:pb-24 gap-3 lg:gap-[22px] px-5 lg:px-20 text-center">
                 <h1 className=" text-white font-heading text-[32px] lg:text-7xl font-light w-full">
-                    Wedding by Do It Up
+                    Weddings by Do It Up
                 </h1>
                 <p className='text-white font-subHeading text-[14px] lg:text-2xl font-light cursor-pointer'>Celebrating your small & big moments </p>
             </div>
