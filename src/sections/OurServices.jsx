@@ -28,7 +28,7 @@ const OurServices = () => {
     return (
         <div className='w-full  px-5 lg:px-[100px] xl:px-[150px] flex flex-col items-center pb-20'>
             <div className='w-full text-center pt-10 pb-6 flex flex-col items-center gap-2'>
-                <h1 className='text-[22px] md:text-[32px] font-bold font-heading '>Our Service</h1>
+                <h1 className='text-[22px] md:text-[32px] font-bold font-heading '>Our Services</h1>
                 <p className='text-[14px] md:text-lg font-subHeading '>Bringing your vision to life</p>
             </div>
 
@@ -40,7 +40,7 @@ const OurServices = () => {
                                 <img src={data.img} alt={data.title} className='w-full h-full object-cover' />
                                 
                                 {/* Overlay content */}
-                                <div className='absolute inset-0 flex flex-col justify-between text-white font-medium p-5 xl:p-7 hover:bg-black/20'>
+                                <div className='absolute inset-0 flex flex-col justify-between text-white font-medium p-5 xl:p-7 bg-black/30 hover:bg-black/40'>
                                     <div className='flex flex-col gap-2 uppercase font-subHeading w-[170px] md:w-[308px]'>
                                         <p className='text-[12px] xl:text-base'>{data.title}</p>
                                         <h1 className='text-[22px] xl:text-[32px] md:w-40 xl:w-auto leading-[30px] xl:leading-10'>{data.subtitle}</h1>

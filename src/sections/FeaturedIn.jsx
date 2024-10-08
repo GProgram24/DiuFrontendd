@@ -14,7 +14,7 @@ const FeaturedIn = () => {
             <div className='w-[100%]'>
                 <div className='w-full flex items-center justify-around'>
                     <a href='https://www.vogue.in/promotion/this-restaurant-in-mumbai-offers-a-bespoke-outdoor-dining-experience-like-no-other' target="_blank" rel="noopener noreferrer">
-                        <img src='/Homepage/featuredLogos/Vogue.png' className='w-28 h-14 md:w-48 md:h-16 xl:w-48 xl:h-20'></img>
+                        <img src='/Homepage/featuredLogos/Vogue.png' className='w-28 h-14 md:w-40 md:h-16 xl:w-40 xl:h-20'></img>
                     </a>
 
                     <a href='https://www.architecturaldigest.in/story/a-century-old-colonial-mansion-turned-into-a-boutique-stay-in-matheran/' target="_blank" rel="noopener noreferrer">
@@ -22,7 +22,7 @@ const FeaturedIn = () => {
                     </a>
 
                     <a href='https://www.cntraveller.in/story/indian-startups-mumbai-bengaluru-throw-a-killer-house-party/' target="_blank" rel="noopener noreferrer">
-                        <img src='/Homepage/featuredLogos/Traveler.png' className='w-24 h-14 md:w-30 md:h-16 xl:w-42 xl:h-20'></img>
+                        <img src='/Homepage/featuredLogos/Traveler.png' className='w-24 h-14 md:w-40 md:h-16 xl:w-44 xl:h-20'></img>
                     </a>
 
                     <a href='https://www.beautifulhomes.asianpaints.com/magazine/lifestyle/culture/these-expert-tips-will-make-your-diwali-decor-easy.html' target="_blank" rel="noopener noreferrer">
