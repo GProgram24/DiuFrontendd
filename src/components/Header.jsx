@@ -11,7 +11,7 @@ const Header = () => {
         <header className="w-full h-[70px]  md:h-[80px] px-5 lg:px-[100px]  xl:px-[150px] fixed z-40 backdrop-blur-sm bg-black/5">
             <div className=' w-full h-full flex items-center justify-between relative'>
                 <div className='text-base font-semibold text-white'>
-                    <NavLink to='/'><img src='/Logo2.png' alt="Logo"></img></NavLink>
+                    <NavLink to='/'><img src='/diu-logo-white.svg' alt="Logo"></img></NavLink>
                 </div>
                 <div className='absoulte lg:hidden '>
                     <Sidebar />
