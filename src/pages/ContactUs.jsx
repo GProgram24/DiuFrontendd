@@ -121,14 +121,16 @@ const ContactUs = () => {
 
 
                     <div className='w-full lg:w-[264.08px] p-5 rounded-xl border border-black/40 flex flex-col gap-5 mb-10 lg:mb-0'>
-                        <div className='text-base font-subHeading '>
+                        <div className='text-base font-subHeading'>
                             <h1 className='font-medium'>CALL US</h1>
-                            <p className='font-light'>+91 836-9341912 </p>
+                            <a href="tel:+918369341912" className='font-light'>
+                                +91-8369341912
+                            </a>
                         </div>
 
                         <div className='text-base font-subHeading '>
                             <h1 className='font-medium'>VISIT US</h1>
-                            <p className='font-light'>+91 - XXXXXXXXXX</p>
+                            <p className='font-light'>Address: Innovative Infocom & IT Parks, Plot No. Gen 71/1 & Gen -71/1/1, TTC Industrial Area, Mahape MIDC, Sector 2, Kopar Khairane, Navi Mumbai, Maharashtra 400710</p>
                         </div>
 
                         <div className='text-base font-subHeading'>

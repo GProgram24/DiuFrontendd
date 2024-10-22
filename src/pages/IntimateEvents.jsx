@@ -32,14 +32,15 @@ const IntimateEvents = () => {
             <div className='w-full px-5 lg:px-[100px] xl:px-[150px] flex flex-col items-center '>
                 <div className='w-full text-center pt-8 md:pt-10 pb-6 flex flex-col items-center gap-2 '>
                     <h1 className='text-[22px] md:text-[32px] font-bold font-heading '>Intimate Events</h1>
-                    <p className='text-[14px] md:text-lg font-subHeading w-full lg:w-[859px]'> "Do It Up creates magical decor for intimate events. Whether it's a birthday, anniversary, or bridal shower, we transform private celebrations into unforgettable experiences."</p>
+                    <p className='text-[14px] md:text-lg font-subHeading w-full lg:w-[859px]'>Intimate Event Decor is Do It Up’s claim-to-fame. Whether it's a birthday party, anniversary, or a bridal shower, we transform private celebrations into unforgettable experiences!</p>
                 </div>
 
                 <div className='w-full  flex flex-col-reverse  items-center lg:flex-row justify-between gap-5 lg:gap-[40px] xl:gap-[71px] md:my-8'>
                     <div className='lg:w-[700px] lg:h-[300px] xl:w-[665px] flex flex-col items-start justify-center gap-3 '>
                         {/* <h1 className='text-[22px] xl:text-[32px] font-bold font-heading '>Lorem Ipsum</h1> */}
                         <p className='text-[14px] xl:text-base font-subHeading leading-[22px] md:leading-[26px]'>
-                        At Do It Up, we specialize in personalized intimate event decor, earning recognition as leading event designers in India. We excel in curating exceptional experiences in smaller settings, having pioneered customized decor solutions for home-based events during times of limited large gatherings. Our services enable clients to celebrate significant occasions in intimate spaces. From birthdays and anniversaries to bridal showers and milestone celebrations, we transform everyday spaces into elegant, memorable venues. Be it for a romantic evening or a close-knit family gathering, Do It Up is dedicated to elevating every intimate event into a truly remarkable experience.</p>
+                            At Do It Up, we specialise in personalised intimate event decor, earning recognition as leading event designers in India. We excel in curating exceptional experiences in smaller settings, having pioneered customised decor solutions for home-based events during times of limited large gatherings. Our services enable clients to celebrate significant occasions in intimate spaces. From birthdays and anniversaries to bridal showers and milestone celebrations, we transform everyday spaces into elegant, memorable venues. Be it for a romantic evening or a close-knit celebration, Do It Up is dedicated to elevating every intimate event into a truly remarkable experience. 
+                        </p>
                     </div>
                     <div className='w-full h-[390px]  lg:h-[400px] lg:w-[792px] xl:h-[647.37px] bg-center bg-cover' style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Featured/DustyBlueReception/IMG_5327_jpg.jpg")` }}>
                     </div>
@@ -85,30 +86,29 @@ const IntimateEvents = () => {
                         {/*--------------------------------  Col 1 ---------------------------------------- */}
 
                         <div className='w-full flex flex-col gap-[6px] md:gap-5 '>
-                            <div className="w-full h-[128px] md:h-[220px] xl:h-[300px]   bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Others/Baby Shower/Copy of IMG_5335.jpg")` }}>
-                                <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-3 md:pl-6 pb-3 md:pb-5 transition-opacity duration-300 ease-in-out">
-                                    <h1 className="text-base leading-tight">Name of the Event</h1>
-                                    
+                            <div className="w-full h-[128px] md:h-[220px] xl:h-[300px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Others/Baby Shower/Copy of IMG_5335.jpg")` }}>
+                                <div className="bg-gradient-to-t from-black/40 w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-3 md:pl-6 pb-3 md:pb-5">
+                                    <h1 className="text-base leading-tight">Priyanka's baby shower</h1>
                                 </div>
                             </div>
 
                             <div className="w-full h-[188px] md:h-[400px] xl:h-[477px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Others/Birthdays/Copy of 896D7258-C839-448F-B407-AA60F18C9324.png")` }}>
-                                <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-3 md:pl-6 pb-3 md:pb-5 transition-opacity duration-300 ease-in-out">
-                                    <h1 className="text-base leading-tight">Name of the Event</h1>
+                                <div className="bg-gradient-to-t from-black/40 w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-3 md:pl-6 pb-3 md:pb-5">
+                                    <h1 className="text-base leading-tight">Jungle theme birthday</h1>
                                     
                                 </div>
                             </div>
 
                             <div className="w-full h-[128px] md:h-[220px] xl:h-[300px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Others/Bridal Shower/Copy of IMG_0129_jpg.JPG")` }}>
-                                <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-3 md:pl-6 pb-3 md:pb-5 transition-opacity duration-300 ease-in-out">
-                                    <h1 className="text-base leading-tight">Name of the Event</h1>
+                                <div className="bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-3 md:pl-6 pb-3 md:pb-5">
+                                    <h1 className="text-base leading-tight">Garden bridal shower</h1>
                                     
                                 </div>
                             </div>
 
                             <div className="w-full h-[188px] md:h-[400px] xl:h-[477px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Others/Pre Wedding/Ashuli & Anurag/Copy of IMG_6364.jpg")` }}>
-                                <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-3 md:pl-6 pb-3 md:pb-5 transition-opacity duration-300 ease-in-out">
-                                    <h1 className="text-base leading-tight">Name of the Event</h1>
+                                <div className="bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-3 md:pl-6 pb-3 md:pb-5">
+                                    <h1 className="text-base leading-tight">Ashuli's engagement</h1>
                                     
                                 </div>
                             </div>
@@ -122,29 +122,29 @@ const IntimateEvents = () => {
 
                         <div className='w-full flex flex-col gap-[6px] md:gap-5 '>
                             <div className="w-full h-[188px] md:h-[400px] xl:h-[477px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Others/Pre Wedding/Wedding Lunch/Copy of IMG_5089.jpg")` }}>
-                                <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-3 md:pl-6 pb-3 md:pb-5 transition-opacity duration-300 ease-in-out">
-                                    <h1 className="text-base leading-tight">Name of the Event</h1>
+                                <div className="bg-gradient-to-t from-black/40 w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-3 md:pl-6 pb-3 md:pb-5">
+                                    <h1 className="text-base leading-tight">Valentine's date night</h1>
                                     
                                 </div>
                             </div>
 
                             <div className="w-full h-[128px] md:h-[220px] xl:h-[300px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Others/Proposals/Copy of IMG_2766.JPG")` }}>
-                                <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-3 md:pl-6 pb-3 md:pb-5 transition-opacity duration-300 ease-in-out">
-                                    <h1 className="text-base leading-tight">Name of the Event</h1>
+                                <div className="bg-gradient-to-t from-black/40 w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-3 md:pl-6 pb-3 md:pb-5">
+                                    <h1 className="text-base leading-tight">Neel's proposal</h1>
                                     
                                 </div>
                             </div>
 
                             <div className="w-full h-[188px] md:h-[400px] xl:h-[477px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Others/Baby Shower/Copy of IMG_7529.jpg")` }}>
-                                <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-3 md:pl-6 pb-3 md:pb-5 transition-opacity duration-300 ease-in-out">
-                                    <h1 className="text-base leading-tight">Name of the Event</h1>
+                                <div className="bg-gradient-to-t from-black/40 w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-3 md:pl-6 pb-3 md:pb-5">
+                                    <h1 className="text-base leading-tight">Aakruti's baby shower</h1>
                                     
                                 </div>
                             </div>
 
                             <div className="w-full h-[128px] md:h-[220px] xl:h-[300px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Others/Birthdays/Copy of B397289B-71B9-4A56-8261-1E24D2D2625B.png")` }}>
-                                <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-3 md:pl-6 pb-3 md:pb-5 transition-opacity duration-300 ease-in-out">
-                                    <h1 className="text-base leading-tight">Name of the Event</h1>
+                                <div className="bg-gradient-to-t from-black/40 w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-3 md:pl-6 pb-3 md:pb-5">
+                                    <h1 className="text-base leading-tight">Teddy themed 1st birthday</h1>
                                     
                                 </div>
                             </div>
@@ -158,29 +158,29 @@ const IntimateEvents = () => {
 
                         <div className='w-full lg:flex flex-col gap-5 hidden '>
                             <div className="w-full md:h-[220px] xl:h-[300px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Others/Bridal Shower/Copy of IMG_1948.jpg")` }}>
-                                <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-6 pb-5 transition-opacity duration-300 ease-in-out">
-                                    <h1 className="text-base leading-tight">Name of the Event</h1>
+                                <div className="bg-gradient-to-t from-black/40 w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-6 pb-5">
+                                    <h1 className="text-base leading-tight">Sunflower birthday</h1>
                                     
                                 </div>
                             </div>
 
                             <div className="w-full md:h-[400px] xl:h-[477px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Others/Pre Wedding/Ashuli & Anurag/Copy of IMG_6366.jpg")` }}>
-                                <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-6 pb-5 transition-opacity duration-300 ease-in-out">
-                                    <h1 className="text-base leading-tight">Name of the Event</h1>
+                                <div className="bg-gradient-to-t from-black/40 w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-6 pb-5">
+                                    <h1 className="text-base leading-tight">Afreen's engagement</h1>
                                     
                                 </div>
                             </div>
 
                             <div className="w-full md:h-[220px] xl:h-[300px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Others/Pre Wedding/Wedding Lunch/Copy of IMG_5092.jpg")` }}>
-                                <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-6 pb-5 transition-opacity duration-300 ease-in-out">
-                                    <h1 className="text-base leading-tight">Name of the Event</h1>
+                                <div className="bg-gradient-to-t from-black/40 w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-6 pb-5">
+                                    <h1 className="text-base leading-tight">Moon baby shower</h1>
                                     
                                 </div>
                             </div>
 
                             <div className="w-full md:h-[400px] xl:h-[477px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Others/Proposals/Copy of 0c1bbbc2-6b09-44c0-ba0f-cf49f79b916c.jpg")` }}>
-                                <div className="opacity-0 hover:opacity-100 hover:bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-6 pb-5 transition-opacity duration-300 ease-in-out">
-                                    <h1 className="text-base leading-tight">Name of the Event</h1>
+                                <div className="bg-gradient-to-t from-black/40 w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-6 pb-5">
+                                    <h1 className="text-base leading-tight">Ayesha's bridal shower</h1>
                                     
                                 </div>
                             </div>

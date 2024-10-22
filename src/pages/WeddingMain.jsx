@@ -47,16 +47,13 @@ const WeddingMain = () => {
             <div className='w-full px-5 lg:px-[100px] xl:px-[150px] flex flex-col items-center '>
                 <div className='w-full text-center pt-10 pb-8 flex flex-col items-center gap-2'>
                     <h1 className='text-[22px] md:text-[32px] font-bold font-heading '>Weddings</h1>
-                    <p className='text-[14px] md:text-lg font-subHeading leading-[22px] md:leading-[26px] text-center w-full lg:w-[859px]'> "Bring your wedding dreams to life with Do It Up. We specialize in creating personalized, luxury wedding decor, blending modern aesthetics with traditional elegance."
-                    </p>
+                    <p className='text-[14px] md:text-lg font-subHeading leading-[22px] md:leading-[26px] text-center w-full lg:w-[859px]'>Bring your wedding dreams to life with Do It Up. We specialise in creating personalised, luxury wedding decor, blending modern aesthetics with traditional elegance.</p>
                 </div>
 
                 <div className='w-full text-center pb-8 flex flex-col items-center '>
-                    <h1 className='text-[22px] md:text-[32px] font-bold font-heading w-full lg:w-[859px] pb-8'>“Crafting spaces that reflect my belief in love's magic, turning dreams into cherished memories.” – Taral Jadhav</h1>
-                    <p className='text-[14px] md:text-lg font-subHeading leading-[22px] md:leading-[26px] text-center w-full lg:w-[900px]'> As our firm grew, we’ve always known that weddings are the ultimate expression of love, and now, we’re excited to announce that Do It Up is officially offering wedding decor services. For years, we’ve mastered the art of pre-wedding festivities and intimate events, and now, we’re taking the leap to become one of the most sought-after wedding designers in the country.
-                    </p>
-                    <p className='text-[14px] md:text-lg font-subHeading leading-[22px] md:leading-[26px] text-center w-full lg:w-[900px] pt-2 '>From our very first wedding at a hilltop in Karjat to the latest one we’re planning in Italy, every wedding we curate fills us with immense pride and a sense of accomplishment. Our passion lies in crafting settings that not only reflect the couple’s vision but also tell their unique story. Whether it's a lavish celebration or an intimate affair, our goal is to create luxury wedding decor that resonates with the couple's dreams and leaves a lasting impression.
-                    </p>
+                    <h1 className='text-[22px] md:text-[32px] font-bold font-heading w-full lg:w-[859px] pb-8'>“Crafting spaces that are a true reflection of love and turning dreams into cherished memories is what drives me.” – Taral Jadhav</h1>
+                    <p className='text-[14px] md:text-lg font-subHeading leading-[22px] md:leading-[26px] text-center w-full lg:w-[900px]'>As we grew, we knew weddings would be the next step for us. Do It Up launched wedding decor services. For years, we’ve mastered the art of pre-wedding festivities and intimate events, and now we’re taking the leap to become one of the most sought-after wedding designers in the country.</p>
+                    <p className='text-[14px] md:text-lg font-subHeading leading-[22px] md:leading-[26px] text-center w-full lg:w-[900px] pt-2 '>From our very first wedding at a hilltop in Karjat to the latest one we’re in Italy, every wedding we curate fills us with immense pride and a sense of accomplishment. Our passion lies in crafting settings that not only reflect the couple’s vision but also tell their unique story. Whether it's a grand celebration or an intimate affair, our goal is to create unique settings that resonate with the couple's dreams and leave a lasting impression.</p>
                 </div>
 
                 <div className='w-full '>
