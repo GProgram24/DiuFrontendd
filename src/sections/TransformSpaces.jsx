@@ -7,7 +7,7 @@ const TransformSpaces = () => {
         new juxtapose.JXSlider('#comparison',
             [
                 {
-                    src: '/Homepage/bannerBnW.jpg',
+                    src: '/Homepage/bannerBnW.png',
                     label: '',
                     credit: ''
                 },

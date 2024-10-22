@@ -51,7 +51,7 @@ const RasLuxury = () => {
                         <h1 className='text-[18px] lg:text-2xl font-heading leading-8'>To further enhance the experience, we set up picnic benches for influencers and guests to participate in an interactive workshop hosted by Shubhika Jain. These wooden benches, topped with elegant chequered runners, provided a cozy and intimate seating arrangement. The tables were decorated with small potted sunflowers and greenery, reinforcing the farm-fresh feel and creating a welcoming environment for guests to explore the brand’s natural skincare and makeup products.</h1>
                         <div className='flex flex-col gap-3 text-[14px] xl:text-lg font-subHeading leading-[26px] '>
                             <p>A carefully curated product display captured the essence of RAS Luxury Oils. The display featured the brand’s luxurious facial oils and innovative makeup solutions, artfully arranged on clear platforms. Natural accents such as fresh herbs and delicate floral arrangements were incorporated to enhance the overall aesthetic—demonstrating our ability to create Instagram-worthy decor that resonates with audiences.</p>
-                            <p>The overall ambiance of the event was designed to transport guests to a serene sunflower field, with the space filled with the bright, cheerful presence of sunflowers and lush greenery. The use of natural textures like cane and jute throughout the decor emphasized the brand’s commitment to sustainability and the use of natural ingredients. This thoughtful combination of vibrant sunflowers, greenery, and sustainable materials created an atmosphere that was both refreshing and immersive, perfectly capturing the essence of RAS Luxury Oils and its Farm to Face ideology.</p>
+                            <p>The overall ambiance of the event was designed to transport guests to a serene sunflower field, with the space filled with the bright, cheerful presence of sunflowers and lush greenery. This thoughtful combination of vibrant sunflowers, greenery, and sustainable materials created an atmosphere that was both refreshing and immersive, perfectly capturing the essence of RAS Luxury Oils and its Farm to Face ideology.</p>
                         </div>
                     </div>
                 </div>
@@ -86,7 +86,7 @@ const RasLuxury = () => {
                         {/*--------------------------------  Col 2  ---------------------------------------- */}
 
                         <div className='w-full flex flex-col gap-[6px] md:gap-5 '>
-                            <div className="w-full h-[188px] md:h-[400px] xl:h-[477px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Brand Installations/Featured/RAS luxury/Copy of IMG_1177.jpg")` }}>
+                            <div className="w-full h-[188px] md:h-[400px] xl:h-[477px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Brand Installations/Featured/RAS luxury/Copy of IMG_1177.JPG")` }}>
                             </div>
 
                             <div className="w-full h-[128px] md:h-[220px] xl:h-[300px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Brand Installations/Featured/RAS luxury/Copy of IMG_1301.jpg")` }}>
@@ -104,7 +104,7 @@ const RasLuxury = () => {
                         {/*--------------------------------  Col 3  ---------------------------------------- */}
 
                         <div className='w-full lg:flex flex-col gap-5 hidden '>
-                            <div className="w-full md:h-[220px] xl:h-[300px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Brand Installations/Featured/RAS luxury/Copy of IMG_1184_jpg.jpg")` }}>
+                            <div className="w-full md:h-[220px] xl:h-[300px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Brand Installations/Featured/RAS luxury/Copy of IMG_1184_jpg.JPG")` }}>
                             </div>
 
                             <div className="w-full md:h-[400px] xl:h-[477px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Brand Installations/Featured/RAS luxury/Copy of IMG_1186.jpg")` }}>

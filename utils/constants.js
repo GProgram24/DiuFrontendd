@@ -31,12 +31,12 @@ export const collaboration = [
     },
     {
         img:"/Collaborations/Sakshi Sindhwani/Copy of DGP_0986.jpg",
-       eventName: "Sakshi Sindhwani's Christmas",
+       eventName: "Sakshi Sindhwani's Xmas Party",
        location: "Delhi"
     },
     {
-        img:"/Collaborations/Meghna Kaur/Copy of IMG_5293.jpg",
-        eventName: "Meghna Kaur's 1 Million Milestone",
+        img:"/Collaborations/Kiara Advani/Copy of IMG_2928copy_jpg.jpg",
+        eventName: "Kiara's celebration",
         location: "Mumbai"
     },
 ]
@@ -72,7 +72,7 @@ export const featuredIn = [
         img:'/About Us/featured/vogue.jpg',
         title: "Vogue weddings",
         desc: "Our very first Wedding at Oleander Farms Karjat, featured in Vogue weddings in November 2023",
-        url: "https://www.vogue.in/promotion/this-restaurant-in-mumbai-offers-a-bespoke-outdoor-dining-experience-like-no-other"
+        url: "https://www.vogue.in/gallery/this-mumbai-couple-omitted-the-baraat-and-kanyadaan-as-they-reimagined-traditions-for-their-intimate-wedding"
     },
     {
         id:2,
@@ -108,7 +108,7 @@ export const featuredWeddings = [
         link : '/weddings/PrernaRohan'
     },
     {
-        img:"/Weddings/Natasha wedding/RNPreview-32-1K8A5242.jpg",
+        img:"/Weddings/Natasha wedding/RNPreview-32-1K8A5242.jpeg",
         eventName: "Natasha & Rana",
         link : '/weddings/NatashaWedding'
     },
@@ -192,7 +192,7 @@ export const NatashaWeddingMoodBoard = [
         img:"/Weddings/Natasha wedding/Ethereal images/RanaNatasha-3657-_O5A5119.jpg",
     },
     {
-        img:"/Weddings/Natasha wedding/Ethereal images/IMG_6963.jpeg", 
+        img:"/Weddings/Natasha wedding/Ethereal images/IMG_6963.jpg", 
     },
     {
         img:"/Weddings/Natasha wedding/Ethereal images/RanaNatasha-5061-_O5A5580.jpg",    
@@ -272,12 +272,12 @@ export const featuredIntimateEvents = [
         link: "/intimateEvents/AlannaBridalShower"
     },
     {
-        img:"/Services (Rename Later)/Intimate Celebrations/Featured/DustyBlueReception/IMG_5360_jpg.jpg",
+        img:"/Services (Rename Later)/Intimate Celebrations/Featured/DustyBlueReception/IMG_5360_jpg.png",
         eventName: "Shreya and Slade’s Reception",
         link: "/intimateEvents/DustyBlueReception"
     },
     {
-        img:"/Services (Rename Later)/Intimate Celebrations/Featured/Sahiba Baby shower/Copy of Copy of IMG_4167.jpg",
+        img:"/Services (Rename Later)/Intimate Celebrations/Featured/Sahiba Baby shower/Copy of Copy of IMG_4167.png",
         eventName: "Sahiba’s Baby Shower",
         link: "/intimateEvents/SahibaBabyShower"
     },
@@ -288,17 +288,17 @@ export const featuredIntimateEvents = [
 // Brand Installations page -------------------------------------------------------------------------------
 export const featuredBrandInstallations = [
     {
-        img:"/Services (Rename Later)/Brand Installations/Featured/Gallops tea party/Copy of 146A5526.jpg",
+        img:"/Services (Rename Later)/Brand Installations/Featured/Gallops tea party/Copy of 146A5526.png",
         eventName: "Gallops Tea Party",
         link: "/brandInstallations/GallopsTeaParty"
     },
     {
-        img:"/Services (Rename Later)/Brand Installations/Featured/RAS luxury/Copy of IMG_1177.jpg",
+        img:"/Services (Rename Later)/Brand Installations/Featured/RAS luxury/Copy of IMG_1177_new.png",
         eventName: "Ras Luxury Oils",
         link: "/brandInstallations/RasLuxury"
     },
     {
-        img:"/Services (Rename Later)/Brand Installations/Featured/Saltt Xmas/Copy of IMG_1874.jpg",
+        img:"/Services (Rename Later)/Brand Installations/Featured/Saltt Xmas/Copy of IMG_1874.png",
         eventName: "Christmas at Saltt",
         link: "/brandInstallations/SalttXmas"
     },

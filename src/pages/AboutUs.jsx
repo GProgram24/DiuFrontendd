@@ -32,18 +32,18 @@ const AboutUs = () => {
             <div className='w-full px-5 lg:px-[100px] xl:px-[150px] flex flex-col items-center '>
                 <div className='flex flex-col items-center justify-center w-full my-8 md:my-10'>
                     <h1 className='text-[22px] md:text-[32px] font-heading font-bold'>About Us</h1>
-                    <p className='text-[14px] md:text-[18px] font-subHeading w-full lg:w-[859px] text-center'>"Do It Up is a Mumbai-based event decor brand known for its luxury event styling. Founded by Taral Jadhav, we’ve created stunning decor for Bollywood celebrities and high-profile events."</p>
+                    <p className='text-[14px] md:text-[18px] font-subHeading w-full lg:w-[859px] text-center'>Do It Up is a Mumbai-based event design & decor brand known for its luxury event styling. Founded by Architect Taral Jadhav, Do It Up is now B-Town’s favourite and one of the most sought after decor brands in the city!</p>
                 </div>
 
                 <div className='w-full xl:py-10 xl:px-[75px] flex flex-col-reverse lg:flex-row justify-between gap-6  xl:gap-10 items-center '>
                     <div className='flex flex-col lg:items-center lg:text-center lg:w-[380px] xl:w-[490px]  '>
                         <div className='flex flex-col gap-3 lg:gap-2 xl:gap-4 lg:items-center w-full lg:text-center mb-5 lg:mb-3 xl:mb-7'>
                             {/* <h3 className='font-subHeading text-[14px] lg:text-base font-medium'>OUR TEAM</h3> */}
-                            <p className='text-[18px] lg:text-[16px] xl:text-[24px] font-heading leading-7 lg:leading-[30px] xl:leading-8'>Do It Up is a 4-year-old Mumbai-based event decor brand specializing in intimate celebrations. What began as a blog by our Founder, Taral Jadhav, an architect by profession, in April 2020, has rapidly evolved into one of Mumbai’s most sought-after decor brands.</p>
+                            <p className='text-[18px] lg:text-[16px] xl:text-[24px] font-heading leading-7 lg:leading-[30px] xl:leading-8'>Established in 2020 during the lockdown, Do It Up is a Mumbai-based event design & decor brand that specialises in intimate celebrations. What began as a blog by our Founder, Taral Jadhav has rapidly evolved into a household name.</p>
                         </div>
 
                         <div className='text-[14px] lg:text-xs xl:text-[14px] font-light font-subHeading flex flex-col lg:text-center gap-2 xl:gap-4'>
-                            <p className='leading-[22px]'>Taral’s initial plans to launch her design firm in April 2020 were halted by the pandemic, leading her to pivot. She began curating elegant home decor ideas through her blog, offering refined tips on transforming spaces with repurposed items. </p>
+                            <p className='leading-[22px]'>Taral’s initial plans to launch her design firm in April 2020 were halted by the pandemic, leading her to pivot. She began curating elegant home decor settings through her blog, offering refined tips on transforming spaces with repurposed items.</p>
                             <p className='leading-[22px]'>Her beautifully styled personal celebrations garnered admiration and requests from friends and clients alike. Initially reserved about event decor, it was a personal request from influencer Juhi Godambe that inspired Taral to meet this growing demand—ushering in the creation of Do It Up, a luxury event decor service.</p>
                         </div>
                     </div>
@@ -69,14 +69,12 @@ const AboutUs = () => {
                         </div> */}
 
                         <div className='flex flex-col lg:items-center w-full lg:text-center mb-5 lg:mb-2 xl:mb-6'>
-                            <p className='text-[18px] lg:text-[16px] xl:text-[24px] font-heading leading-7 lg:leading-[30px] xl:leading-8'>Since then, our journey has been nothing short of exhilarating. We've had the pleasure of creating decor for high-profile clients, including Bollywood stars like Kiara Advani, Janhvi Kapoor, Vicky Kaushal & Katrina Kaif, Malaika Arora, Rhea Kapoor, Akshay Kumar, and Natasha Poonawalla. </p>
+                            <p className='text-[18px] lg:text-[16px] xl:text-[24px] font-heading leading-7 lg:leading-[30px] xl:leading-8'>Since then, our journey has been nothing short of exhilarating. We've had the pleasure of working with prestigious clients including Bollywood celebrities like Kiara Advani, Janhvi Kapoor, Vicky Kaushal & Katrina Kaif, Malaika Arora, Bhumi Pednekar, Akshay Kumar, and Kriti Sanon.</p>
                         </div>
 
                         <div className='text-[14px] lg:text-xs xl:text-[14px] font-light font-subHeading flex flex-col lg:text-center gap-2 xl:gap-4'>
-                            <p className='leading-[22px]'>We also specialize in custom event styling for branded events, particularly in the lifestyle and beauty sectors, working with brands such as Nykaa Fashion, Hamleys India, Pinterest India, Shilpa Shetty’s Bastian Hospitality, Yauatcha, and Cin Cin of KA Hospitality.
-                            </p>
-                            <p className='leading-[22px]'>Four years and nearly 1,000 events later, Do It Up has expanded into the wedding decor category. We kicked off the 2023-24 wedding season with four intimate weddings across Mumbai and Delhi, with many more lined up across India. Our commitment to creating personalized decor for every occasion continues to drive us, as we help our clients celebrate life's most special moments with style and elegance.
-                            </p>
+                            <p className='leading-[22px]'>We also specialise in custom event styling for brand events, particularly in the lifestyle, beauty & hospitality industries. We’ve partnered with brands such as Nykaa Fashion, Hamleys India, Pinterest India, Shilpa Shetty’s Bastian Hospitality, Yauatcha, Cin Cin, Club Jolie’s and more.</p>
+                            <p className='leading-[22px]'>Four years and nearly 1,000 events later, Do It Up has expanded into the wedding decor industry. We kicked off the 2023-24 wedding season with four intimate weddings across Mumbai and Delhi, with many more lined up across the country. Our commitment to curating personalised decor for every occasion continues to drive us, as we help our clients celebrate life's most special moments with style and elegance.</p>
                         </div>
                     </div>
                 </div>
