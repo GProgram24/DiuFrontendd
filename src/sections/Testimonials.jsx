@@ -17,7 +17,7 @@ const TestimonialCard = ({ testimonial }) => {
             <div className="bg-white shadow-md border border-black/10 rounded-lg overflow-hidden p-3 flex flex-col justify-between">
                 <img
                     src={testimonial.img}
-                    className="w-full h-64 md:h-72 lg:h-56 xl:h-64 object-center object-cover "
+                    className="w-full h-96 object-center object-cover "
                 />
                 <div className="p-4 xl:p-6">
                     {/* Conditionally apply text clamping based on isExpanded state */}

@@ -4,13 +4,13 @@
 export const servicesData = [
     {
         img:"/Services (Rename Later)/Intimate Celebrations/Featured/Alanna_s Bridal Shower/Copy of Copy of 3.png",
-        title:"Immitate Events",
+        title:"Intimate Events",
         subtitle: "ALANNA'S BRIDAL SOIREE",
         link:"/intimateEvents"
     },
     {
-        img:"/Services (Rename Later)/Brand Installations/Featured/RAS luxury/Copy of IMG_1177.jpg",
-        title:"BRAND & INSTALLATIONS",
+        img:"/Services (Rename Later)/Brand Installations/Featured/RAS luxury/Copy of IMG_1177.JPG",
+        title:"Brands & Installations",
         subtitle: "WORLD OF RAS",
         link:"/brandInstallations"
     },
@@ -57,7 +57,7 @@ export const testimonials = [
     },
     {
         id: 3,
-        img:'/Homepage/Testimonials/Mehr.jpg',
+        img:'/Mehr.jpg',
         desc: "Personally, all these years we have heard of Do It Up as the most renowned company for decor! Therefore, when I was hosting a party it took me no time to finalise DIU. My experience was flawless, what sets them apart is the prompt responses and appropriate suggestions upon even the largest alterations that were made! Their design team completely blended with our visualization of the decor & we were briefed well on where our money was going. All decisions were taken efficiently, all problems had a solution that left us with no complaints. The end result was no less than a dream & we were in awe of the creation by the team!",
         name: "Mehr Sabarwal ",
     }
