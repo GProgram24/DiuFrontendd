@@ -91,7 +91,7 @@ const OurGallery = () => {
 
                     <div className="w-full h-[188px] md:h-[400px] xl:h-[477px] bg-center bg-cover" style={{ backgroundImage: `url("/Collaborations/Rhea Kapoor/Copy of IMG_6959.jpg")` }}>
                         <div className="bg-gradient-to-t from-black/40  w-full h-full font-subHeading text-white flex flex-col items-start justify-end pl-3 md:pl-6 pb-3 md:pb-5">
-                            <h1 className="text-base leading-tight">Soonam Kapoor baby welcom</h1>
+                            <h1 className="text-base leading-tight">Soonam Kapoor baby welcome</h1>
                             
                         </div>
                     </div>
