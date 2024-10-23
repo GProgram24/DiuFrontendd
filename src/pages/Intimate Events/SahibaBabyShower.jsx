@@ -43,7 +43,7 @@ const SahibaBabyShower = () => {
 
                 <div className='w-full flex flex-col xl:flex-row justify-between py-5 gap-10 items-center'>
                     <div className='w-full xl:w-[35%]'>
-                        <div className='w-full h-[635px] bg-center bg-cover' style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Featured/Sahiba Baby shower/Copy of Copy of IMG_4304.jpg")` }}></div>
+                        <div className='w-full h-[635px] bg-center bg-cover' style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Featured/Sahiba Baby shower/Copy of Copy of IMG_4304.JPG")` }}></div>
 
                     </div>
 
@@ -69,7 +69,7 @@ const SahibaBabyShower = () => {
                         {/*--------------------------------  Col 1 ---------------------------------------- */}
 
                         <div className='w-full flex flex-col gap-[6px] md:gap-5 '>
-                            <div className="w-full h-[128px] md:h-[220px] xl:h-[300px]   bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Featured/Sahiba Baby shower/Copy of Copy of IMG_4291.jpg")` }}>
+                            <div className="w-full h-[128px] md:h-[220px] xl:h-[300px]   bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Featured/Sahiba Baby shower/Copy of Copy of IMG_4291.JPG")` }}>
                             </div>
 
                             <div className="w-full h-[188px] md:h-[400px] xl:h-[477px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Featured/Sahiba Baby shower/Copy of IMG_4550.jpg")` }}>
@@ -78,7 +78,7 @@ const SahibaBabyShower = () => {
                             <div className="w-full h-[128px] md:h-[220px] xl:h-[300px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Featured/Sahiba Baby shower/Copy of IMG_4361.jpg")` }}>
                             </div>
 
-                            <div className="w-full h-[188px] md:h-[400px] xl:h-[477px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Featured/Sahiba Baby shower/Copy of Copy of IMG_4304.jpg")` }}>
+                            <div className="w-full h-[188px] md:h-[400px] xl:h-[477px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Featured/Sahiba Baby shower/Copy of Copy of IMG_4304.JPG")` }}>
                             </div>
                         </div>
 
@@ -90,13 +90,13 @@ const SahibaBabyShower = () => {
                             <div className="w-full h-[188px] md:h-[400px] xl:h-[477px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Featured/Sahiba Baby shower/Copy of Copy of IMG_4232.jpg")` }}>
                             </div>
 
-                            <div className="w-full h-[128px] md:h-[220px] xl:h-[300px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Featured/Sahiba Baby shower/Copy of Copy of IMG_4301.jpg")` }}>
+                            <div className="w-full h-[128px] md:h-[220px] xl:h-[300px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Featured/Sahiba Baby shower/Copy of Copy of IMG_4301.JPG")` }}>
                             </div>
 
-                            <div className="w-full h-[188px] md:h-[400px] xl:h-[477px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Featured/Sahiba Baby shower/Copy of Copy of IMG_4291.jpg")` }}>
+                            <div className="w-full h-[188px] md:h-[400px] xl:h-[477px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Featured/Sahiba Baby shower/Copy of Copy of IMG_4291.JPG")` }}>
                             </div>
 
-                            <div className="w-full h-[128px] md:h-[220px] xl:h-[300px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Featured/Sahiba Baby shower/Copy of Copy of IMG_4167.jpg")` }}>
+                            <div className="w-full h-[128px] md:h-[220px] xl:h-[300px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Featured/Sahiba Baby shower/Copy of Copy of IMG_4167.png")` }}>
                             </div>
                         </div>
 
@@ -105,13 +105,13 @@ const SahibaBabyShower = () => {
                         {/*--------------------------------  Col 3  ---------------------------------------- */}
 
                         <div className='w-full lg:flex flex-col gap-5 hidden '>
-                            <div className="w-full md:h-[220px] xl:h-[300px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Featured/Sahiba Baby shower/Copy of Copy of IMG_4304.jpg")` }}>
+                            <div className="w-full md:h-[220px] xl:h-[300px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Featured/Sahiba Baby shower/Copy of Copy of IMG_4304.JPG")` }}>
                             </div>
 
-                            <div className="w-full md:h-[400px] xl:h-[477px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Featured/Sahiba Baby shower/Copy of Copy of IMG_4550.jpg")` }}>
+                            <div className="w-full md:h-[400px] xl:h-[477px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Featured/Sahiba Baby shower/Copy of Copy of IMG_4550.JPG")` }}>
                             </div>
 
-                            <div className="w-full md:h-[220px] xl:h-[300px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Featured/Sahiba Baby shower/Copy of Copy of IMG_4291.jpg")` }}>
+                            <div className="w-full md:h-[220px] xl:h-[300px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Featured/Sahiba Baby shower/Copy of Copy of IMG_4291.JPG")` }}>
                             </div>
 
                             <div className="w-full md:h-[400px] xl:h-[477px] bg-center bg-cover" style={{ backgroundImage: `url("/Services (Rename Later)/Intimate Celebrations/Featured/Sahiba Baby shower/Copy of IMG_4301.jpg")` }}>
@@ -122,11 +122,20 @@ const SahibaBabyShower = () => {
             </div>
 
             {/* Contact us */}
-            <div className='w-full h-[526px] md:h-[660px] bg-center bg-cover' style={{ backgroundImage: `url("/Homepage/Contact.jpg")` }}>
-                <div className='w-full h-full flex flex-col px-5 lg:px-0 lg:pl-[100px] xl:pl-[150px] pt-20 lg:pt-[130px] bg-black md:bg-black/20 text-white'>
-                    <h1 className='font-heading text-[32px]  leading-10'>Do It Up.<br></br> Do It Up Today!</h1>
-                    <p className='font-subHeading text-[14px] md:text-[18px] lg:w-[610px] pt-3 pb-8 lg:pb-6'>Do It Up specialises in personalised event decor, home makeovers and transformations with a vision to create spaces that reflect personalities.</p>
-                    <Link to='/contact'><button className='px-5 md:px-7 py-2 w-[175px] h-[42px] border border-white hover:bg-white text-bse hover:text-black rounded-xl'>CONTACT US</button></Link>
+            <div className='w-full h-[526px] md:h-[660px] bg-center bg-cover bg-no-repeat' 
+                style={{ backgroundImage: `url("/Homepage/Contact.jpg")` }}>
+                <div className='w-full h-full flex flex-col px-5 lg:px-0 lg:pl-[100px] xl:pl-[150px] pt-20 lg:pt-[130px] bg-black bg-opacity-50 bg-black/20 text-white'>
+                    <h1 className='font-heading text-[32px] leading-10'>
+                        Do It Up.<br /> Do It Up Today!
+                    </h1>
+                    <p className='font-subHeading text-[14px] md:text-[18px] lg:w-[610px] pt-3 pb-8 lg:pb-6'>
+                        Do It Up specialises in personalised event decor, home makeovers and transformations with a vision to create spaces that reflect personalities.
+                    </p>
+                    <Link to='/contact'>
+                        <button className='px-5 md:px-7 py-2 w-[175px] h-[42px] border border-white hover:bg-white text-base hover:text-black rounded-xl'>
+                            CONTACT US
+                        </button>
+                    </Link>
                 </div>
             </div>
         </div>
