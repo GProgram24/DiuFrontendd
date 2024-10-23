@@ -24,7 +24,7 @@ const Footer = () => {
                             onMouseEnter={handleMouseEnter}
                             onMouseLeave={handleMouseLeave}
                         >
-                            <div className='cursor-pointer'>
+                            <div className='cursor-pointer font-medium'>
                                 <p className=' h-full hover:font-semibold'>WORK</p>
                             </div>
                             {/* Dropdown content */}
