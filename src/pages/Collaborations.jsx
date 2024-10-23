@@ -29,7 +29,7 @@ const Collaborations = () => {
                     {/* <div className='w-full lg:w-[55%] xl:w-[45%]'>
                         <img src='/Collaborations/Aakriti Rana/Copy of IMG_7430.JPG' className='w-[100%] h-[451px] md:h-[526px] lg:h-[400px] xl:h-[526px]'></img>
                     </div> */}
-                    <div className='w-full lg:w-[400px] xl:w-[614px] aspect-square bg-center bg-cover' style={{ backgroundImage: `url("/Copy of IMG_7430.JPG")` }}>
+                    <div className='w-full lg:w-[400px] xl:w-[614px] aspect-square bg-center bg-cover' style={{ backgroundImage: `url("/Collaborations/Aakriti Rana/Copy of IMG_7430.JPG")` }}>
                     </div>
                 </div>
 
