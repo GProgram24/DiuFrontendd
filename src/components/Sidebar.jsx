@@ -23,7 +23,7 @@ const Sidebar = () => {
                                         src='/diu-logo-black1.png'
                                         alt="Logo"
                                         onClick={toggleSidebar}
-                                        className="w-[150px] h-[150px]"  // Keep dimensions intact
+                                        className="w-[130px] h-[130px]"   // Keep dimensions intact
                                     />
                                 </NavLink>
                             </div>
