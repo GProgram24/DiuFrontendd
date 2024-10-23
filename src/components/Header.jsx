@@ -8,10 +8,10 @@ const Header = () => {
     const handleMouseEnter = () => setDropdownOpen(true);
     const handleMouseLeave = () => setDropdownOpen(false);
     return (
-        <header className="w-full h-[70px]  md:h-[80px] px-5 lg:px-[100px]  xl:px-[150px] fixed z-40 backdrop-blur-sm bg-black/5">
+        <header className="w-full h-[70px] md:h-[80px] px-5 lg:px-[100px] xl:px-[150px] fixed z-40 backdrop-blur-sm bg-black/5">
             <div className=' w-full h-full flex items-center justify-between relative'>
                 <div className='text-base font-semibold text-white'>
-                    <NavLink to='/'><img src='/diu-logo-white1.png' alt="Logo" className='w-[250px] h-[250px] -mt-4'></img></NavLink>
+                    <NavLink to='/'><img src='/diu-logo-white1.png' alt="Logo" className='w-[150px] h-[150px] sm:w-[130px] lg:w-[186px] sm:h-[130px] lg:h-[186px] -mt-4'></img></NavLink>
                 </div>
                 <div className='absoulte lg:hidden '>
                     <Sidebar />

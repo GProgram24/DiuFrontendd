@@ -11,7 +11,7 @@ const Header1 = () => {
         <header className="w-full h-[70px] md:h-[80px] px-5 lg:px-[100px]  xl:px-[150px] fixed z-40 bg-white ">
             <div className=' w-full h-full flex justify-between items-center z-40'>
                 <div className='text-base font-semibold text-white'>
-                    <NavLink to='/'><img src='/diu-logo-black1.png' alt="Logo" className='w-[200px] h-[200px] -mt-4'></img></NavLink>
+                    <NavLink to='/'><img src='/diu-logo-black1.png' alt="Logo" className='w-[150px] h-[150px] sm:w-[130px] lg:w-[186px] sm:h-[130px] lg:h-[186px] -mt-4'></img></NavLink>
                 </div>
                 <div className='lg:hidden'>
                     <Sidebar1 />
