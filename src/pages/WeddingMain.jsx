@@ -56,7 +56,7 @@ const WeddingMain = () => {
                     <p className='text-[14px] md:text-lg font-subHeading leading-[22px] md:leading-[26px] text-center w-full lg:w-[900px] pt-2 '>From our very first wedding at a hilltop in Karjat to the latest one we’re in Italy, every wedding we curate fills us with immense pride and a sense of accomplishment. Our passion lies in crafting settings that not only reflect the couple’s vision but also tell their unique story. Whether it's a grand celebration or an intimate affair, our goal is to create unique settings that resonate with the couple's dreams and leave a lasting impression.</p>
                 </div>
 
-                <div className='w-full '>
+                <div className='w-full pb-20'>
                     <Slider {...settings} className="">
                         {
                             featuredWeddings.map((data, index) => (

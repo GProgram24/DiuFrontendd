@@ -21,10 +21,10 @@ const Sidebar1 = () => {
                             <div className='absolute left-0'>
                                 <NavLink to='/'>
                                     <img
-                                        src='/diu-logo-black1.png'
+                                        src='/diu-logo-black1-new.png'
                                         alt="Logo"
                                         onClick={toggleSidebar}
-                                        className="w-[130px] h-[130px]"  // Ensure the logo dimensions remain intact
+                                        className="w-[130px]"  // Ensure the logo dimensions remain intact
                                     />
                                 </NavLink>
                             </div>
